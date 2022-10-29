@@ -47,31 +47,6 @@ let swiper = new Swiper('.portfolio_container', {
     keyboard: true,
 });
 
-
-/* Arrows */
-
-document.getElementById("arrow-up").onclick = function() {
-    window.scrollBy(0, -window.innerHeight);
-};
-
-document.getElementById("arrow-down").onclick = function() {
-    window.scrollBy(0, window.innerHeight);
-};
-
-window.onscroll = function() {
-    var top = document.body.scrollTop + document.documentElement.scrollTop == 0;
-    document.getElementById('arrow-up').style.display = top ? 'block' : 'none';
-    document.getElementById('arrow-up').style.display = top ? 'none' : 'block';
-
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100){
-        document.getElementById('arrow-down').style.display='none';
-    }else{
-        document.getElementById('arrow-down').style.display='block';
-    }
-}
-
-
-
 /* CSS Refresh on fullscreen */
 
 document.addEventListener("fullscreenchange", refreshCSS());
@@ -99,35 +74,3 @@ refreshCSS = () => {
 let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-
-
-
-
-
-
-
-
-
-
-/*==================== SCROLL REVEAL ANIMATION ====================*/
-
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2000,
-    delay: 200,
-//     reset: true
-});
-
-sr.reveal('.home_data, .about_img, .skills_subtitle, .skills_text',{}); 
-sr.reveal('.home_img, .about_subtitle, .about_text, .skills_img',{delay: 400}); 
-sr.reveal('.home_social-icon',{ interval: 200}); 
-sr.reveal('.skill_data, .work_img, .contact_input',{interval: 200}); 
-
-/*==================== CHANGE BACKGROUND HEADER ====================*/ 
-
-
-/*==================== SHOW SCROLL UP ====================*/ 
-
-
-/*==================== DARK LIGHT THEME ====================*/ 

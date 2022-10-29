@@ -6,8 +6,6 @@
 
 :root
 {
-
-  /* Colors */
   --color-font: rgb(255, 255, 255);
   --color-font-title: rgb(255, 226, 198);
   --color-font-subtitle: rgb(191, 191, 191);
@@ -24,17 +22,14 @@
   --color-back-transp:rgba(52, 53, 55, 0.8);
   --color-back-alt:rgb(30, 30, 30);
 
-  /* Font */
   --font-type: 'Roboto', sans-serif;
 
-  /* Font sizes */
   --font-size-h1: 1.2rem;
   --font-size-h2: 1rem;
   --font-size-st: 0.8rem;
   --font-size-small: 0.6rem;
   --font-size-st-q: 1.1rem;
 
-  /* Font weight */
   --font-w1: 300;
   --font-w2: 400;
   --font-w3: 500;
@@ -42,7 +37,6 @@
   --font-w5: 700;
 }
 
-/* Font size for large devices */
 @media screen and (min-width: 720px)
 {
     :root
@@ -53,14 +47,13 @@
     }
 }
 
-/* Font size for very small devices */
 @media screen and (max-width: 300px)
 {
     :root
     {
-      --font-size-h1: 1.0rem;
-      --font-size-h2: 0.9rem;
-      --font-size-st: 0.8rem;
+      --font-size-h1: 0.9rem;
+      --font-size-h2: 0.8rem;
+      --font-size-st: 0.7rem;
     }
 }
 
@@ -214,7 +207,7 @@ img
   z-index: 100;
   background-color: var(--color-back-alt);
   border-bottom: var(--color-menu-active);
-  border-bottom-width: 2px;
+  border-bottom-width: 0px;
   border-style: groove;
   border-color: var(--color-logo);
   opacity: 90%;
@@ -437,15 +430,13 @@ img
 {
   -webkit-mask-image:-webkit-gradient(linear, left 30%, left bottom, from(rgb(255, 255, 255)), to(rgba(255, 0, 0, 0)));
   mask-image: linear-gradient(50% to bottom, rgb(255, 255, 255), rgba(255, 0, 0, 0));
-
   z-index: 1;
   overflow:visible;
   margin-top: 3rem;
   object-fit: cover;
   object-position: right top;
   height: calc(100vh - 3rem);
-  width:100%;
-  
+  width:100%; 
 }
 
 .home_back_r
@@ -453,7 +444,6 @@ img
   overflow:hidden;
   -webkit-mask-image:-webkit-gradient(linear, left 30%, left bottom, from(rgb(255, 255, 255)), to(rgba(255, 0, 0, 0)));
   mask-image: linear-gradient(50% to bottom, rgb(255, 255, 255), rgba(255, 0, 0, 0));
-
   z-index: 1;
   display:flex;
   margin-top: 3rem;
@@ -504,6 +494,8 @@ img
   color: var(--color-logo);
   font-size: 10vmin;
   transition: .5s;
+  filter: drop-shadow(2px -2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px 2px 0 rgba(0, 0, 0, 0.1))
+  drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px -2px 0 rgba(0, 0, 0, 0.1));
 }
 
 .home_social-icon:hover
@@ -516,17 +508,13 @@ img
 .home_data_robot,.home_data_prog,.home_data_robot_m,.home_data_prog_m
 {
   border-style: groove;
-  /*border-color: var(--color-logo);*/
- /* border-width: 2px;*/
-
   border-radius: 5vmin;
-  /*background: var(--color-back-alt);*/
-
   position: absolute;
   z-index: 9;
-  /*text-align: center;*/
   background-color: var(--color-back-transp);
-    backdrop-filter: blur(10px) ;
+  backdrop-filter: blur(4px);
+  filter: drop-shadow(2px -2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px 2px 0 rgba(0, 0, 0, 0.1))
+  drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px -2px 0 rgba(0, 0, 0, 0.1));
 }
 
 .home_data_robot,.home_data_prog
@@ -599,6 +587,8 @@ bottom: 44vmin;
   border-radius: 2rem;
   font-weight: var(--font-w4);
   transition: .5s;
+  filter: drop-shadow(2px -2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px 2px 0 rgba(0, 0, 0, 0.1))
+  drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px -2px 0 rgba(0, 0, 0, 0.1));
 }
 
 .button:hover
@@ -619,7 +609,7 @@ bottom: 44vmin;
   align-items: center;
 }
 
-/* ---------------------------- About  ---------------------------- */
+/* ------------------------------------------------------ About ------------------------------------------------------ */
 
 .about
 {
@@ -662,7 +652,6 @@ bottom: 44vmin;
   }
 }
 
-
 .about_data
 { 
   text-align: center;
@@ -691,6 +680,8 @@ bottom: 44vmin;
   padding-top: 0;
   margin-left: 0%;
   width: 100%;
+  filter: drop-shadow(2px -2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px 2px 0 rgba(0, 0, 0, 0.1))
+  drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px -2px 0 rgba(0, 0, 0, 0.1));
 }
 
 @media screen and (min-width: 720px)
@@ -705,7 +696,6 @@ bottom: 44vmin;
     border-radius: .5rem;
   }
 }
-
 
 .about_desc
 {
@@ -749,33 +739,13 @@ bottom: 44vmin;
   padding-bottom: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*==================== SKILLS ====================*/
+/* ------------------------------------------------------ Skills ------------------------------------------------------ */
 
 .skills
 {
   padding-top: 10vh;
   text-align: center;
 }
-
-
-
 
 .skills_container
 {
@@ -788,7 +758,6 @@ bottom: 44vmin;
   margin-top: auto;
   margin-bottom: auto;
 }
-
 
 .skills_header
 {
@@ -962,8 +931,7 @@ bottom: 44vmin;
   width: 15%;
 }
 
-
-/*==================== QUALIFICATION ====================*/
+/* ------------------------------------------------------ Qualification ------------------------------------------------------ */
 
 .qualification
 {
@@ -1067,9 +1035,7 @@ bottom: 44vmin;
   transform: translate(6px,-7px);
 }
 
-
-/*==================== PORTFOLIO ====================*/
-
+/* ------------------------------------------------------ Portfolio ------------------------------------------------------ */
 
 .portfolio
 {
@@ -1083,7 +1049,6 @@ bottom: 44vmin;
   margin-top: auto;
   margin-bottom:auto;
 }
-
 
 .portfolio_top
 {
@@ -1114,6 +1079,8 @@ bottom: 44vmin;
   margin-right: 10vw;
   border-radius: .5rem;
   justify-self: center;
+  filter: drop-shadow(2px -2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px 2px 0 rgba(0, 0, 0, 0.1))
+  drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px -2px 0 rgba(0, 0, 0, 0.1));
 }
 
 .portfolio_title
@@ -1185,7 +1152,7 @@ bottom: 44vmin;
   }
 }
 
-/*==================== CONTACT ME ====================*/
+/* ------------------------------------------------------ Contact ------------------------------------------------------ */
 
 .contact
 {
@@ -1202,22 +1169,17 @@ bottom: 44vmin;
   padding:2rem;
   margin-top: auto;
   margin-bottom:auto;
-  background-image: url('../icons/kj_tlo.svg');
-  background-repeat: no-repeat;
-  background-position: 0 3rem;
-  background-size: 100% calc(100% - 3rem);
-  backdrop-filter: blur(10px) ;
+  background-color: var(--color-back-transp);
+  backdrop-filter: blur(4px);
+  filter: drop-shadow(2px -2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px 2px 0 rgba(0, 0, 0, 0.1))
+  drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.1)) drop-shadow(-2px -2px 0 rgba(0, 0, 0, 0.1));   
 }
-
 
 .contact_top
 {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
 }
-
-
-
 
 .contact_container
 {
@@ -1234,19 +1196,19 @@ bottom: 44vmin;
 
 .contact_icon
 {
-  font-size: 8vw;
+  font-size: 6vw;
   color: var(--color-buttons-active);
   margin-right: 0.75rem;
 }
 
 .contact_title
 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: var(--font-medium);
 }
 
 .contact_subtitle
 {
-  font-size: 4vw;
+  font-size: 3vw;
   color: var(--color-font);
 }
