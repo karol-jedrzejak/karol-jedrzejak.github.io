@@ -1,0 +1,38 @@
+#section-contact {
+  background-image: url("../../public/img/contact.jpg");
+  background-size: cover;
+  background-position: center top;
+  max-width: 100%;
+  max-height: calc(100vh - 51.78px);
+}
+
+#contact-inside {
+  width: 100%;
+  height: calc(100vh - 51.78px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-box {
+  opacity: 0;
+  animation: opacity-0-1 1s linear;
+  animation-fill-mode: forwards;
+  height: 400px;
+  text-align: center;
+  /*   background-color: var(--color3-a80); */
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.background-photo-credits {
+  font-size: 0.75rem;
+  position: fixed;
+  color: var(--color5-light);
+  text-decoration: none;
+  bottom: 20px;
+  right: 20px;
+}

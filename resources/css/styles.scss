@@ -1,0 +1,267 @@
+/* ----------- Google Font ----------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap");
+
+/* ----------- Clear CSS ----------- */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------- Colors ----------- */
+
+@import "colors.css";
+
+/* ----------- Imports ----------- */
+
+@import "navigation.css";
+@import "home.css";
+@import "about.css";
+@import "skills.css";
+@import "qualification.css";
+@import "projects.css";
+@import "contact.css";
+
+/* ----------- Language selector ----------- */
+
+span:lang(en) {
+  display: initial;
+}
+
+span:lang(pl) {
+  display: none;
+}
+
+/* ----------- Colors ----------- */
+
+.color1 {
+  color: var(--color1);
+}
+
+.color2 {
+  color: var(--color2);
+}
+
+.color3 {
+  color: var(--color3);
+}
+
+.color4 {
+  color: var(--color4);
+}
+
+.color5 {
+  color: var(--color5);
+}
+
+/* ----------- Sections ----------- */
+
+section {
+  display: block;
+  position: relative;
+  min-height: calc(100vh - 51.78px);
+}
+
+#section-home {
+  display: flex;
+  justify-content: center;
+}
+
+#section-about,
+#section-skills,
+#section-qualification,
+#section-projects,
+#section-contact {
+  display: none;
+}
+
+#section-home,
+#section-skills,
+#section-qualification,
+#section-projects,
+#section-contact {
+  background-image: url("../../public/img/background.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-color: var(--color3);
+}
+
+@media screen and (max-width: 719px) {
+  #section-home,
+  #section-skills,
+  #section-qualification,
+  #section-projects,
+  #section-contact {
+    background-image: url("../../public/img-mobile/background.jpg");
+  }
+}
+
+/* ----------- Headers & Lists ----------- */
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  #start-text-box {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  h1 {
+    font-size: 2rem;
+  }
+  #start-text-box {
+    font-size: 1rem;
+  }
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1200px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ----------- Buttons ----------- */
+
+.button {
+  background-color: var(--color5);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--color2);
+  transition: 1s;
+}
+
+.button:hover {
+  background-color: var(--color5-light);
+  cursor: pointer;
+}
+
+/* ----------- keyframes ----------- */
+
+@keyframes opacity-0-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

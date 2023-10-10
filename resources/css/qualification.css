@@ -1,0 +1,69 @@
+#qualification-inside {
+  height: 100%;
+  display: flex;
+  padding: 2rem 1rem;
+}
+
+#qualification-left,
+#qualification-right {
+  width: 50%;
+}
+
+.qualification-years {
+  text-align: center;
+  color: var(--color4);
+}
+
+.qualification-flex {
+  padding: 1rem;
+  display: flex;
+}
+
+@media screen and (max-width: 719px) {
+  #qualification-inside {
+    padding: 2rem 0rem;
+    flex-direction: column;
+  }
+  #qualification-left,
+  #qualification-right {
+    width: 100%;
+  }
+  .qualification-flex {
+    padding: 1rem 0rem;
+  }
+}
+#qualification-left .qualification-flex {
+  align-items: center;
+}
+
+#qualification-right .qualification-flex {
+  align-items: top;
+}
+
+.qualification-flex div {
+  padding: 0 1rem;
+}
+
+.qualification-title {
+  text-align: center;
+}
+
+#qualification-education,
+#qualification-courses,
+#qualification-right {
+  opacity: 0;
+  animation: opacity-0-1 1s linear;
+  animation-fill-mode: forwards;
+}
+
+#qualification-education {
+  animation-delay: 0s;
+}
+
+#qualification-courses {
+  animation-delay: 0.5s;
+}
+
+#qualification-right {
+  animation-delay: 1s;
+}/*# sourceMappingURL=qualification.css.map */

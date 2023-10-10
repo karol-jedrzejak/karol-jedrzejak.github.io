@@ -1,748 +1,705 @@
 <!DOCTYPE html>
-    <html lang="pl">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="shortcut icon" href="icons/kj.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <link rel="stylesheet" href="css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>Karol Jędrzejak</title>
-    </head>
-    <body class="body">
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="public/icons/kj.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="resources/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-        <!-- ---------------------------------------- Head ---------------------------------------- -->
-        <header class="header" id="header">
-            <nav class="navi">
-
-                <!--Logo-->
-                <a href="#" class="navi_logo">
-                    <svg class="navi_logo_svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="10mm" height="10mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 10000 10000" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="M8614.44 6127.11c0,460.94 -108.18,799.63 -324.55,1016 -216.37,216.37 -549.16,324.56 -998.36,324.56 -449.21,0 -925.46,-23.52 -1428.75,-70.56l-652.64 -1111.25c366.88,23.52 1395.82,194.03 1781.53,194.03 108.18,0 194.02,-31.75 257.52,-95.25 63.5,-63.5 95.25,-149.35 95.25,-257.53l0 -2681.11 -2028.47 88.2 582.08 -1005.43 2716.39 -8.81 0 3607.15z"/>
-                        <polygon points="2570.9,7479.71 1300.9,7479.71 1300.9,2540.82 2570.9,2540.82 2570.9,4481.1 3205.9,4481.1 4306.57,2540.82 5647.13,2540.82 4264.24,4974.99 5640.07,7479.71 4299.52,7479.71 3205.9,5468.88 2570.9,5468.88 "/>
-                    </svg>   
-                </a>
-
-                <!--Menu-->
-                <div class="navi_menu" id="navi-menu">
-                    <ul class="navi_list grid">
-                        <li>
-                            <a href="#home" class="navi_link active-link">
-                                <i class="uil uil-home navi_icon"></i>
-                                <span class="ENG">Home</span>
-                                <span class="PL">Start</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#about" class="navi_link">
-                                <i class="uil uil-user-circle navi_icon"></i>
-                                <span class="ENG">About</span>
-                                <span class="PL">O mnie</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#skills" class="navi_link">
-                                <i class="uil uil-file-download-alt navi_icon"></i>
-                                <span class="ENG">Skills</span>
-                                <span class="PL">Umiejętności</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#qualification" class="navi_link">
-                                <i class="uil uil-scenery navi_icon"></i>
-                                <span class="ENG">Qualification</span>
-                                <span class="PL">Kwalifikacje</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#projects" class="navi_link">
-                                <i class="uil uil-scenery navi_icon"></i>
-                                <span class="ENG">Projects</span>
-                                <span class="PL">Projekty</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="navi_link">
-                                <i class="uil uil-envelope-send navi_icon"></i>
-                                <span class="ENG">Contact</span>
-                                <span class="PL">Kontakt</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!--Hamburger-->
-                <div class="navi_right">
-                    <div class="navi_lang" id="lang-change"><span class="ENG LangOn" id="english">PL</span><span class="PL" id="polski">ENG</span></div>
-                    <div class="navi_change" id="navi-change">
-                        <i class="uil uil-list-ul"></i>
-                    </div>
-                </div>
-
-            </nav>
-        </header>
-
-        <div class="main">
-
-            <!-- ---------------------------------------- Home ---------------------------------------- -->
-
-            <section class="home section" id="home">
-
-                <div class="home_back">
-                    <div><img src="img/home_left_back.jpg" class="home_back_l"/></div>
-                    <div class="home_back_r"></div>
-                </div>
-
-                 <div class="home_social">
-                    <a href="https://www.facebook.com/kjzlo" target="_blank" class="home_social-icon">
-                        <i class="uil uil-facebook"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/karol-jedrzejak/" target="_blank" class="home_social-icon">
-                        <i class="uil uil-linkedin"></i>
-                    </a>
-                </div>
-                
-                <div class="home_img">
-                    <img class="home_img-picture" src="photos/portret.png"></img>
-                </div>
-
-                <div class="home_data_robot">
-                    <h1>
-                        <span class="ENG">ROBOTISATION SPECIALIST</span>
-                        <span class="PL">ROBOTYK</span>
-                    </h1>
-                    <h2>
-                        <span class="ENG">
-                            <li>Offline/Online industrial robot programming (MAG/TIG/LASER welding),</li>
-                            <li>Preparing of scripts for offline programming automation (C++),</li>
-                            <li>Sales of robotised systems,</li>
-                            <li>Conducting trainings and lectures</li>
-                        </span>
-                        <span class="PL">
-                            <li>Programista Offline/Online robotów przemysłowych (spawanie MAG/TIG/LASER),</li>
-                            <li>Przygotowanie skryptów do automatyzacji pisania programów offline (C++),</li>
-                            <li>Prowadzenie tematów sprzedaży stanowisk,</li>
-                            <li>Prowadzenie szkoleń i wykładów.</li>
-                    </span>
-                    </h2>
-                </div>
-
-                <div class="home_data_robot_m">
-                    <h1>
-                        <span class="ENG">ROBOTISATION SPECIALIST</span>
-                        <span class="PL">ROBOTYK</span>
-                    </h1>
-                    <h2>
-                        <span class="ENG">Offline/Online Robot programming, Scripts (C++), Sales, Trainings</span>
-                        <span class="PL">Progamowanie Offline/Online Robotów, Skrypty (C++), Sprzedaż, Szkolenia</span>
-                    </h2>
-                </div>
- 
-                <div class="home_data_prog">
-                    <h1>
-                        <span class="ENG">WEB DEVELOPER</span>
-                        <span class="PL">WEB DEVELOPER</span>
-                    </h1>
-                    <h2>
-                        <span class="ENG">
-                            <li>BackEnd - Website development (PHP, JavaScipt, HTML),</li>
-                            <li>FrontEnd - Graphic layer of the pages (JavaScipt, CSS),</li>
-                            <li>Databases (SQL),</li>
-                            <li>Graphics processing (Corel Draw, Photo Paint),</li>
-                            <li>Video processing (Sony Vegas, Resolve),</li></span>
-                        <span class="PL">
-                            <li>BackEnd - Tworzenie stron WWW (PHP, JavaScipt, HTML),</li>
-                            <li>FrontEnd - Warstwa graficzna stron (JavaScipt, CSS),</li>
-                            <li>Bazy Danych (SQL),</li>
-                            <li>Obróbka grafiki (Corel Draw, Photo Paint),</li>
-                            <li>Obróbka video (Sony Vegas, Resolve),</li>
-                        </span>
-                    </h2>
-                </div>
-
-                <div class="home_data_prog_m">
-                    <h1>
-                        <span class="ENG">WEB DEVELOPER</span>
-                        <span class="PL">WEB DEVELOPER</span>
-                    </h1>
-                    <h2>
-                        <span class="ENG">BackEnd, FrontEnd, Databases (SQL), Graphics and Video processing</span>
-                        <span class="PL">BackEnd, FrontEnd, Bazy Danych (SQL), Obróbka Video i grafiki</span>
-                    </h2>
-                </div>
-
-            </section>
-
-            <!-- ---------------------------------------- About ---------------------------------------- -->
-
-            <section class="about section" id="about">
-                <div class="aboutl"><img src="photos/about.jpg" alt="" class="about_img"/></div>
-                <div class="aboutr">
-                    <div class="about_data">
-                        <h1 class="about_title">
-                            <span class="ENG">About Me</span>
-                            <span class="PL"> O mnie</span>
-                        </h1>
-                        <h2 class="about_desc">
-                            <span class="ENG">
-                                I come from a small town called "Wola Książęca" near Jarocin.
-                                I started my adventure with programming and robotics in secondary school and after moving to Poznań, I graduated from the Automation and Robotics profile with a master's degree in engineering.
-                                Currently, I work at Technika Spawalnicza as a robotization specialist and programmer.
-                                My main tasks in my current job include programming robots and developing a web-based management platform.</span><span class="ENG">
-                                One of my main interests outside of work is music. I like playing guitar and singing (I've also played in some metal bands in the past).
-                                I collect vinyl records. I like to play board games and card games (MTG) with my friends. In my spare time I watch old s-f movies and horror movies from the 80s.
-                            </span>
-                            <span class="PL">
-                                Pochodzę z małej miejscowości "Wola Książęca" niedaleko Jarocina.
-                                Swoją przygodę z programowaniem zacząłem w szkole średniej a po przeprowadzeniu się do Poznania ukończyłem studia na profilu Automatyka i Robotyka uzyskując tytuł magistra inżyniera.
-                                Obecnie w pracuję w firmie Technika Spawalnicza w roli specalisty ds robotyzacji i programisty.
-                                Do moich glównych zadań w obecnej pracy należy programowanie robotów i rozwijanie webowej platformy do zarządzania.</span><span class="PL">
-                                Do moich głównych zainteresowań poza pracą należy muzyka. Lubię grać na gitarze i spiewać (grałem też kiedyś w paru zespołach metalowych).
-                                Kolekcjonuję płyty vinylowe. Lubię grać z znajomymi w gry planszowe i karciane (MTG). W wolnym czasie oglądam stare filmy s-f i horrory z lat 80.
-                            </span>
-                        </h2>
-                        <div class="about_buttons">
-                            <a download="" href="CV/Karol Jędrzejak - CV - ENG.pdf" class="button button--flex"><span class="ENG">CV - ENG</span><span class="PL">CV - ENG</span><i class="uil uil-file-download"></i></a>&nbsp;&nbsp;&nbsp;
-                            <a download="" href="CV/Karol Jędrzejak - CV - PL.pdf" class="button button--flex"><span class="ENG">CV - PL</span><span class="PL">CV - PL</span><i class="uil uil-file-download"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ---------------------------------------- Skills ---------------------------------------- -->
-
-            <section class="skills section" id="skills">
-                <h1 class="section_title">
-                    <span class="ENG">Skills</span>
-                    <span class="PL">Umiejętnośći</span>
-                </h1>
-                <h2 class="section_subtitle">
-                    <span class="ENG">My technical Level</span>
-                    <span class="PL">Poziom wiedzy</span>
-                </h2>
-                <div class="skills_container grid">
-
-                    <!--Skills 1 Front End-->
-                    <div>
-                        <div class="skills_content skills_open">
-                            <div class="skills_header">
-                                <i class="uil uil-brackets-curly skills_icon"></i>
-                                
-                                <div>
-                                    <h1 class="skills_title">
-                                        <span class="ENG">Front End</span>
-                                        <span class="PL">Front End</span>
-                                    </h1>
-                                    <span class="skills_subtitle">
-                                        <span class="ENG">1 Year</span>
-                                        <span class="PL">1 Rok</span>
-                                    </span>
-                                </div>
-
-                                <i class="uil uil-arrow-down skills_arrow"></i>
-                            </div>
-                            <div class="skills_list grid">
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">HTML</h3>
-                                        <span class="skill_number">30%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_html"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">JavaScript</h3>
-                                        <span class="skill_number">30%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_js"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">CSS</h3>
-                                        <span class="skill_number">40%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_css"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Skills 2 Back End-->
-                    <div>
-                        <div class="skills_content skills_close">
-                            <div class="skills_header">
-                                <i class="uil uil-brackets-curly skills_icon"></i>
-                                
-                                <div>
-                                    <h1 class="skills_title">
-                                        <span class="ENG">Back End</span>
-                                        <span class="PL">Back End</span>
-                                    </h1>
-                                    <span class="skills_subtitle">
-                                        <span class="ENG">1 Year</span>
-                                        <span class="PL">1 Rok</span>
-                                    </span>
-                                </div>
-
-                                <i class="uil uil-arrow-down skills_arrow"></i>
-                            </div>
-                            <div class="skills_list grid">
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">PHP</h3>
-                                        <span class="skill_number">40%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_php"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">SQL</h3>
-                                        <span class="skill_number">35%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_sql"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">C++</h3>
-                                        <span class="skill_number">35%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_cpp"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Skills 3 Robotyk-->
-                    <div>
-                        <div class="skills_content skills_close">
-                            <div class="skills_header">
-                                <i class="uil uil-robot skills_icon"></i>
-                                
-                                <div>
-                                    <h1 class="skills_title">
-                                        <span class="ENG">Robotics</span>
-                                        <span class="PL">Robotyka</span>
-                                    </h1>
-                                    <span class="skills_subtitle">
-                                        <span class="ENG">9 Years</span>
-                                        <span class="PL">9 Lat</span>
-                                    </span>
-                                </div>
-
-                                <i class="uil uil-arrow-down skills_arrow"></i>
-                            </div>
-                            <div class="skills_list grid">
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">
-                                            <span class="ENG">Offline Programming (Panasonic Robots)</span>
-                                            <span class="PL">Programowanie Offline (Roboty Panasonic)</span>
-                                        </h3>
-                                        <span class="skill_number">90%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_offline"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">
-                                            <span class="ENG">Online Programming (Panasonic Robots)</span>
-                                            <span class="PL">Programowanie Online (Roboty Panasonic)</span>
-                                        </h3>
-                                        <span class="skill_number">85%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_online"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Skills 4 Other-->
-                    <div>
-                        <div class="skills_content skills_close">
-                            <div class="skills_header">
-                                <i class="uil uil-camera-change skills_icon"></i>
-                                
-                                <div>
-                                    <h1 class="skills_title">
-                                        <span class="ENG">Other Skills</span>
-                                        <span class="PL">Inne Umiejętnośći</span>
-                                    </h1>
-                                    <span class="skills_subtitle"></span>
-                                </div>
-
-                                <i class="uil uil-arrow-down skills_arrow"></i>
-                            </div>
-                            <div class="skills_list grid">
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">Microsoft Office (Excel, Word, PowerPoint)</h3>
-                                        <span class="skill_number">90%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_office"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">Corel Draw/Photo Paint</h3>
-                                        <span class="skill_number">60%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_corel"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">Move Studio/Da Vinci Resolve</h3>
-                                        <span class="skill_number">65%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_movie"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Skills 5 Languages-->
-                    <div>
-                        <div class="skills_content skills_close">
-                            <div class="skills_header">
-                                <i class="uil uil-english-to-chinese skills_icon"></i>
-                                
-                                <div>
-                                    <h1 class="skills_title">
-                                        <span class="ENG">Languages</span>
-                                        <span class="PL">Języki</span>
-                                    </h1>
-                                    <span class="skills_subtitle"></span>
-                                </div>
-
-                                <i class="uil uil-arrow-down skills_arrow"></i>
-                            </div>
-                            <div class="skills_list grid">
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">
-                                            <span class="ENG">Polish</span>
-                                            <span class="PL">Polski</span>
-                                        </h3>
-                                        <span class="skill_number">100%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_pl"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">
-                                            <span class="ENG">English</span>
-                                            <span class="PL">Angielski</span>
-                                        </h3>
-                                        <span class="skill_number">70%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_eng"></span>
-                                    </div>
-                                </div>
-                                <div class="skill_data">
-                                    <div class="skill_title">
-                                        <h3 class="skill_name">
-                                            <span class="ENG">Deutsch</span>
-                                            <span class="PL">Niemiecki</span>
-                                            </h3>
-                                        <span class="skill_number">15%</span>
-                                    </div>
-                                    <div class="skill_bar">
-                                        <span class="skill_percent skill_de"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ---------------------------------------- Qualification ---------------------------------------- -->
-
-            <section class="qualification section" id="qualification">
-            <div class="qualification_box">
-                <div class="qualification_top">
-                    <h1 class="section_title">
-                        <span class="ENG">Qualification</span>
-                        <span class="PL">Kwalifikacje</span>
-                    </h1>
-                    <h2 class="section_subtitle">
-                        <span class="ENG">My education and work history.</span>
-                        <span class="PL">Historia mojej eudkacji i doświadczenie zawodowe.</span>
-                    </h2>
-                </div>
-                <div class="qualification_content">
-
-                    <!--1-->
-                    <div class="qualification_data">
-                        <div>
-                            <div class="qualification_calendar">
-                                <i class="uil uil-schedule"></i>
-                                2004-2007
-                            </div>
-                            <h1 class="qualification_title">
-                                <span class="ENG">"T. Kościuszki" middle school in Jarocin</span>
-                                <span class="PL">Liceum im. T. Kościuszki w Jarocinie</span>
-                            </h1>
-                            <span class="qualification_subtitle">
-                                <span class="ENG">Class with an IT profile</span>
-                                <span class="PL">Klasa o profilu informatycznym</span>
-                            </span>
-                        </div>
-                        <div>
-                            <span class="qualification_rounder"></span>
-                            <span class="qualification_line"></span>
-                        </div>
-                        <div class="qualification_icons_r">
-                            <i class="uil uil-graduation-cap qualification_icon"></i>
-                        </div>
-                    </div>
-
-                    <!--2-->
-                    <div class="qualification_data">
-                        <div class="qualification_icons_l">
-                            <i class="uil uil-graduation-cap qualification_icon"></i>
-                        </div>
-                        <div>
-                            <span class="qualification_rounder"></span>
-                            <span class="qualification_line"></span>
-                        </div>
-                        <div>
-                            <div class="qualification_calendar">
-                                <i class="uil uil-schedule"></i>
-                                2007-2012
-                            </div>
-                            <h1 class="qualification_title">
-                                <span class="ENG">Poznań University of Technology</span>
-                                <span class="PL">Politechnika Poznańska</span>
-                            </h1>
-                            <span class="qualification_subtitle">
-                                <span class="ENG">Automation and Robotics</span>
-                                <span class="PL">Automatyka i Robotyka</span>
-                            </span>
-                        </div>
-                    </div>
-
-                    <!--3-->
-                    <div class="qualification_data">
-                        <div>
-                            <div class="qualification_calendar">
-                                <i class="uil uil-schedule"></i>
-                                2011-2012
-                            </div>
-                            <h1 class="qualification_title">
-                                <span class="ENG">Mały Inżynier</span>
-                                <span class="PL">Mały Inżynier</span>
-                            </h1>
-                            <span class="qualification_subtitle">
-                                <span class="ENG">Robotics inscructor (Lego Minstorms).</span>
-                                <span class="PL">Irnstruktor zajęć robotyki (Lego Minstorms).</span>
-                            </span>
-                        </div>
-                        <div>
-                            <span class="qualification_rounder"></span>
-                            <span class="qualification_line"></span>
-                        </div>
-                        <div class="qualification_icons_r">
-                            <i class="uil uil-briefcase-alt qualification_icon"></i>
-                        </div>
-                    </div>
-
-                    <!--4-->
-                    <div class="qualification_data">
-                        <div class="qualification_icons_l">
-                            <i class="uil uil-briefcase-alt qualification_icon"></i>
-                        </div>
-                        <div>
-                            <span class="qualification_rounder"></span>
-                            <span class="qualification_line"></span>
-                        </div>
-                        <div>
-                            <div class="qualification_calendar">
-                                <i class="uil uil-schedule"></i>
-                                2012-2023
-                            </div>
-                            <h1 class="qualification_title">
-                                <span class="ENG">Pebos IT</span>
-                                <span class="PL">Pebos IT</span>
-                            </h1>
-                            <span class="qualification_subtitle">
-                                <span class="ENG">IT technician</span>
-                                <span class="PL">Technik Informatyk</span>
-                            </span>
-                        </div>
-                    </div>
-
-                    <!--5-->
-                    <div class="qualification_data">
-                        <div>
-                            <div class="qualification_calendar">
-                                <i class="uil uil-schedule"></i>
-                                2012-Present
-                            </div>
-                            <h1 class="qualification_title">
-                                Technika Spawalnicza
-                            </h1>
-                            <span class="qualification_subtitle">
-                                <span class="ENG">Programmer / Robotisation Specialist</span>
-                                <span class="PL">Programista / Robotyk</span>
-                            </span>
-                        </div>
-                        <div>
-                            <span class="qualification_rounder"></span>
-                        </div>
-                        <div class="qualification_icons_r">
-                            <i class="uil uil-briefcase-alt qualification_icon"></i>
-                        </div>
-                    </div>
-                </div>
+    <title>Karol Jędrzejak</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div>
+        <svg onclick="page('section-home')"
+          class="navi-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          xml:space="preserve"
+          width="10mm"
+          height="10mm"
+          version="1.1"
+          style="
+            shape-rendering: geometricPrecision;
+            text-rendering: geometricPrecision;
+            image-rendering: optimizeQuality;
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+          "
+          viewBox="0 -10 10000 10000"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <path
+            d="M8614.44 6127.11c0,460.94 -108.18,799.63 -324.55,1016 -216.37,216.37 -549.16,324.56 -998.36,324.56 -449.21,0 -925.46,-23.52 -1428.75,-70.56l-652.64 -1111.25c366.88,23.52 1395.82,194.03 1781.53,194.03 108.18,0 194.02,-31.75 257.52,-95.25 63.5,-63.5 95.25,-149.35 95.25,-257.53l0 -2681.11 -2028.47 88.2 582.08 -1005.43 2716.39 -8.81 0 3607.15z"
+            id="navi-logo-letter-2"
+          />
+          <polygon
+            points="2570.9,7479.71 1300.9,7479.71 1300.9,2540.82 2570.9,2540.82 2570.9,4481.1 3205.9,4481.1 4306.57,2540.82 5647.13,2540.82 4264.24,4974.99 5640.07,7479.71 4299.52,7479.71 3205.9,5468.88 2570.9,5468.88 "
+            id="navi-logo-letter-1"
+          />
+        </svg>
+      </div>
+      <div class="navi-comp">
+        <button class="nav-button button-home active" onclick="page('section-home')">
+          <span lang="en">HOME</span>
+          <span lang="pl">START</span>
+        </button>
+        <button class="nav-button button-about" onclick="page('section-about')">
+          <span lang="en">ABOUT ME</span>
+          <span lang="pl">O MNIE</span>
+        </button>
+        <button class="nav-button button-skills" onclick="page('section-skills')">
+          <span lang="en">SKILLS</span>
+          <span lang="pl">UMIEJĘTNOŚCI</span>
+        </button>
+        <button class="nav-button button-qualification" onclick="page('section-qualification')">
+          <span lang="en">QUALIFICATION</span>
+          <span lang="pl">KWALIFIKACJE</span>
+        </button>
+        <button class="nav-button button-projects" onclick="page('section-projects')">
+          <span lang="en">PROJECTS</span>
+          <span lang="pl">PROJEKTY</span>
+        </button>
+        <button class="nav-button button-contact" onclick="page('section-contact')">
+          <span lang="en">CONTACT</span>
+          <span lang="pl">KONTAKT</span>
+        </button>
+      </div>
+      <div class="right-nav-buttons">
+        <span lang="en"><a class="language" onclick="LangChange('pl')"><img src="public/img/pl.png" alt="Flag" class="flag" >PL</a></span>
+        <span lang="pl"><a class="language" onclick="LangChange('en')"><img src="public/img/eng.png" alt="Flag" class="flag">ENG</a></span>
+        <input id="toggle" type="checkbox" onclick="moblieMenu()"></input>
+        <label for="toggle" class="hamb-button">
+          <div class="hamb-button-1"></div>
+          <div class="hamb-button-2"></div>
+          <div class="hamb-button-3"></div>
+        </button>
+      </div>
+    </nav>
+    <div id="nav-mobile">
+        <button class="nav-button button-home active" onclick="page('section-home')">
+          <span lang="en">HOME</span>
+          <span lang="pl">START</span>
+        </button>
+        <button class="nav-button button-about" onclick="page('section-about')">
+          <span lang="en">ABOUT ME</span>
+          <span lang="pl">O MNIE</span>
+        </button>
+        <button class="nav-button button-skills" onclick="page('section-skills')">
+          <span lang="en">SKILLS</span>
+          <span lang="pl">UMIEJĘTNOŚCI</span>
+        </button>
+        <button class="nav-button button-qualification" onclick="page('section-qualification')">
+          <span lang="en">QUALIFICATION</span>
+          <span lang="pl">KWALIFIKACJE</span>
+        </button>
+        <button class="nav-button button-projects" onclick="page('section-projects')">
+          <span lang="en">PROJECTS</span>
+          <span lang="pl">PROJEKTY</span>
+        </button>
+        <button class="nav-button button-contact" onclick="page('section-contact')">
+          <span lang="en">CONTACT</span>
+          <span lang="pl">KONTAKT</span>
+        </button>
+    </div>
+    <!-- ---------------------------------------- Home ---------------------------------------- -->
+    <section id="section-home">
+      <div class="section-nav-mobile-overlay">
+      </div>
+      <div class="home-social">
+        <a
+          href="https://www.facebook.com/kjzlo"
+          target="_blank"
+          class="home-social-icon"
+        >
+          <i class="uil uil-facebook"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/karol-jedrzejak/"
+          target="_blank"
+          class="home-social-icon"
+        >
+          <i class="uil uil-linkedin"></i>
+        </a>
+      </div>
+      <div id="start-inside">
+        <div id="start-left">
+          <div id="start-text-box">
+            <h1 id="home-name-surname"><span lang="en,pl" class="color5">KAROL</span> <span lang="en,pl" class="color4">JĘDRZEJAK</span></h1><br>
+            <h2 id="home-work-type">WEB DEVELOPER</h2><br>
+            <div id="home-attributes">
+              <span lang="en">
+                <ul>
+                  <li>- BackEnd (PHP, Laravel, JavaScipt, HTML),</li>
+                  <li>- FrontEnd (JavaScipt, React, CSS, Bootstrap),</li>
+                  <li>- Databases (SQL),</li>
+                  <li>- Graphics processing (Corel Draw, Photo Paint),</li>
+                  <li>- Video processing (Sony Vegas, Resolve),</li>
+                </ul>
+              </span>
+              <span lang="pl">
+                <ul>
+                  <li>- BackEnd (PHP, Laravel, JavaScipt, HTML),</li>
+                  <li>- FrontEnd (JavaScipt, React, CSS, Bootstrap),</li>
+                  <li>- Bazy Danych (SQL),</li>
+                  <li>- Obróbka grafiki (Corel Draw, Photo Paint),</li>
+                  <li>- Obróbka video (Sony Vegas, Resolve),</li>
+                </ul>
+              </span>
             </div>
-            </section>
-
-            <!-- ---------------------------------------- Portfolio ---------------------------------------- -->
-
-            <section class="portfolio section" id="projects">
-                <div class="portfolio_box">
-                    <div class="portfolio_top">
-                        <h1 class="section_title">Projects</h1>    
-                        <h2 class="section_subtitle">
-                            <span class="ENG">Leatest projects</span>
-                            <span class="PL">Ostatnie projekty</span>
-                        </h2>
-                    </div>
-                    <div class="portfolio_container swiper-container grid">
-                        <div class="swiper-wrapper">
-
-                            <!--Projekt1-->
-                            <div class="portfolio_contenet grid swiper-slide">
-                                <img src="img/portfolio_01_komp.jpg" alt="" class="portfolio_img port_img_1">
-                                <div class="portfolio_data">
-                                    <h1 class="portfolio_title">
-                                        <span class="ENG">Management Platform</span>
-                                        <span class="PL">Platforma do zarządzania</span>
-                                    </h1>
-                                    <h2 class="portfolio_description">
-                                        <span class="ENG">A multifunctional platform prepared specially for the company's needs.</span>
-                                        <span class="PL">Wielofunkcyjna platforma przygotowana specjalnie na potrzeby firmy.</span>
-                                    </h2>
-                                </div>
-                            </div>
-
-                            <!--Projekt2-->
-                            <div class="portfolio_contenet grid swiper-slide">
-                                <img src="img/portfolio_02_komp.jpg" alt="" class="portfolio_img port_img_2">
-                                <div class="portfolio_data">
-                                    <h1 class="portfolio_title">
-                                        <span class="ENG">Portfolio Website</span>
-                                        <span class="PL">Strona o mnie</span>
-                                    </h1>
-                                    <h2 class="portfolio_description">
-                                        <span class="ENG">The one you are looking at :)</span>
-                                        <span class="PL">Strona która aktualnie przeglądasz :)</span>
-                                    </h2>
-                                </div>
-                            </div>
-
-                            <!--Projekt3-->
-                            <div class="portfolio_contenet grid swiper-slide">
-                                <img src="img/portfolio_03_komp.jpg" alt="" class="portfolio_img port_img_3">
-                                <div class="portfolio_data">
-                                    <h1 class="portfolio_title">
-                                        <span class="ENG">Next Project</span>
-                                        <span class="PL">Następny Projekt</span>
-                                    </h1>
-                                    <h2 class="portfolio_description">
-                                        <span class="ENG">I am waiting for your order :)</span>
-                                        <span class="PL">Czekam na twoje zlecenie :)</span>
-                                    </h2>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="swiper-button-next">
-                            <i class="uil uil-angle-right swiper-portfolio-icon"></i>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <i class="uil uil-angle-left swiper-portfolio-icon"></i>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ---------------------------------------- Contact Me ---------------------------------------- -->
-
-            <section class="contact section" id="contact">
-                <div class="contact_box">
-                    <div class="contact_top">
-                        <h1 class="section_title">
-                            <span class="ENG">Contact</span>
-                            <span class="PL">Kontakt</span>
-                        </h1>
-                    </div>
-
-                    <div class="contact_container">
-                        <div>
-                            <div class="contact_information">
-                                <i class="uil uil-phone contact_icon"></i>
-                                <div>
-                                    <h1 class="contact_title">
-                                        <span class="ENG">Call Me !</span>
-                                        <span class="PL">Zadzwoń !</span>
-                                    </h1>
-                                    <span class="contact_subtitle">+48 693 462 163</span>
-                                </div>
-                            </div>
-
-                            <div class="contact_information">
-                                <i class="uil uil-envelope contact_icon"></i>
-                                <div>
-                                    <h1 class="contact_title">e-mail</h1>
-                                    <span class="contact_subtitle">karol.jedrzejak@gmail.com</span>
-                                </div>
-                            </div>
-
-                            <div class="contact_information">
-                                <i class="uil uil-location-point contact_icon"></i>
-                                <div>
-                                    <h1 class="contact_title">
-                                        <span class="ENG">Home City</span>
-                                        <span class="PL">Miasto</span>
-                                    </h1>
-                                    <span class="contact_subtitle">Poznań</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+          </div>
         </div>
-        <script src="js/swiper-bundle.min.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/navi.js"></script>
-    </body>
-</html>
+        <div id="start-right">
+          <img id="start-photo"/>
+<!--           <img id="start-photo" src="public/photos/portret.png" /> -->
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------- About ---------------------------------------- -->
+    <section id="section-about">
+      <div class="section-nav-mobile-overlay"></div>
+      <div id="about-inside">
+        <div id="about-left"></div>
+        <div id="about-right">
+          <h1><span lang="en" class="color5">ABOUT</span><span lang="pl" class="color5">O</span> <span lang="en" class="color4">ME</span><span lang="pl" class="color4">MNIE</span></h1><br> 
+          <p>
+            <span lang="en"> 
+              My name is Karol Jędrzejak. I started my adventure with programming in high school in an IT class.
+              After that i graduated in the field of Automation and Robotics with a master's degree in engineering.
+              Currently, I work at Technika Spawalnicza as a robotization
+              specialist and programmer. My main tasks in my current job include
+              development of the CRM platform as well as robot programming.
+            </span>
+            <span lang="pl">
+              Nazywam się Karol Jędrzejak.
+              Swoją przygodę z programowaniem zacząłem w szkole średniej w klasie o profilu informatycznym.
+              Następnie ukończyłem studia na profilu
+              Automatyka i Robotyka uzyskując tytuł magistra inżyniera. Obecnie
+              w pracuję w firmie Technika Spawalnicza w roli specalisty ds
+              robotyzacji i programisty. Do moich glównych zadań w obecnej pracy
+              należy rozbudowa platformy CRM jak również programowanie robotów.
+            </span>
+          </p> 
+          <p>
+            <span lang="en"> 
+              One of my main interests outside of work is music. I like playing
+              guitar and singing (I've also played in some metal bands in the
+              past). I collect vinyl records. I like to play board games and
+              card games (MTG) with my friends. In my spare time I watch old s-f
+              movies and horror movies from the 80s.
+            </span>
+            <span lang="pl">
+              Do moich głównych zainteresowań poza pracą należy muzyka. Lubię
+              grać na gitarze i spiewać (grałem też kiedyś w paru zespołach
+              metalowych). Kolekcjonuję płyty vinylowe. Lubię grać z znajomymi w
+              gry planszowe i karciane (MTG). W wolnym czasie oglądam stare
+              filmy s-f i horrory z lat 80.
+            </span>
+          </p>
+          <div>
+            <a class="button"
+              href="public/CV/Karol Jędrzejak - CV - ENG.pdf"
+              >CV - ENG</a
+            >
+            <a class="button"
+              href="public/CV/Karol Jędrzejak - CV - PL.pdf"
+              >CV - PL
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------- Skills ---------------------------------------- -->
+    <section id="section-skills"><div class="section-nav-mobile-overlay"></div>
+      <div id="skills">
+        <div class="skills-flex-1">
+          <div class="skills-flex-2">
+            <h1 class="text-center text-info"><span lang="en,pl" class="color5">FRONT</span>-<span lang="en,pl" class="color4">END</span></h1>
+            <div class="skill">
+              <div class="skill-name">HTML</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-70" style="width:70%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">CSS</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-70" style="width:70%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">JS</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-50" style="width:50%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">REACT</div>
+              <div class="skill-level">
+                  <div class="skill-level-fill fill-30" style="width:30%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">BOOTSTRAP</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-50" style="width:50%">&nbsp;</div>
+              </div>
+            </div>
+          </div>  
+          <div class="skills-flex-2">
+            <h1 class="text-center text-info"><span lang="en,pl" class="color5">BACK</span>-<span lang="en,pl" class="color4">END</span></h1>
+            <div class="skill">
+              <div class="skill-name">PHP</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-50" style="width:50%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">LARAVEL</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-40" style="width:40%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">MYSQL</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-40" style="width:40%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">C++</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-30" style="width:30%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="d-none d-md-block">&nbsp;</div>
+          </div>
+        </div>
+        <div class="skills-flex-1">
+          <div class="skills-flex-2">
+            <h1><span lang="en" class="color5">OTHER</span><span lang="pl" class="color5">INNE</span></h1>
+            <div class="skill">
+              <div class="skill-name">GIT</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-20" style="width:20%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Corel Draw</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-80" style="width:80%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">Movie Studio</div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-80" style="width:80%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="d-none d-md-block">&nbsp;</div>
+            <div class="d-none d-md-block">&nbsp;</div>
+          </div>
+          <div class="skills-flex-2">
+            <h1><span lang="en" class="color5">LANGUAGES</span><span lang="pl" class="color5">JĘZYKI</span></h1>
+            <div class="skill">
+              <div class="skill-name"><span lang="en">POLISH</span><span lang="pl">POLSKI</span></div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-100" style="width:100%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name"><span lang="en">ENGLISH</span><span lang="pl">ANGIELSKI</span></div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-70" style="width:70%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name"><span lang="en">GERMAN</span><span lang="pl">NIEMIECKI</span></div>
+              <div class="skill-level">
+                <div class="skill-level-fill fill-20" style="width:20%">&nbsp;</div>
+              </div>
+            </div>
+            <div class="d-none d-md-block">&nbsp;</div>
+            <div class="d-none d-md-block">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <!-- ---------------------------------------- Qualification ---------------------------------------- -->
+    <section id="section-qualification"><div class="section-nav-mobile-overlay"></div>
+      <div id="qualification-inside">
+        <div id="qualification-left">
+          <div id="qualification-education">
+            <h1 class="qualification-title"><span lang="en" class="color5">EDUCATION</span><span lang="pl" class="color5">NAUKA</span></h1>
+            <div class="qualification-flex">
+              <div class="qualification-years">2004<br>|<br>2007</div>
+              <div>
+                <h5>
+                    <span lang="en">"T. Kościuszki" middle school in Jarocin</span>
+                    <span lang="pl">Liceum im. T. Kościuszki w Jarocinie</span>
+                </h5>
+                <span>
+                    <span lang="en">Class with an IT profile</span>
+                    <span lang="pl">Klasa o profilu informatycznym</span>
+                </span>
+              </div>
+            </div>
+            <div class="qualification-flex">
+              <div class="qualification-years">2007<br>|<br>2012</div>
+              <div>
+                <h5>
+                    <span lang="en">Poznań University of Technology</span>
+                    <span lang="pl">Politechnika Poznańska</span>
+                </h5>
+                <span>
+                    <span lang="en">Automation and Robotics</span>
+                    <span lang="pl">Automatyka i Robotyka</span>
+                </span>
+              </div>
+            </div>
+            </div>
+            <div id="qualification-courses">
+            <h1 class="qualification-title"><span lang="en" class="color5">COURSES</span><span lang="pl" class="color5">KURSY</span></h1>
+            <div class="qualification-flex">
+              <div class="qualification-years">2013</div>
+              <div>
+                <h5>
+                    <span lang="en">Industrial Robot Programming (Panasonic)</span>
+                    <span lang="pl">Programowanie Robotów (Panasonic)</span>
+                </h5>
+                <span>
+                    <span lang="en"></span>
+                    <span lang="pl"></span>
+                </span>
+              </div>
+            </div>
 
+            <div class="qualification-flex">
+              <div class="qualification-years">2015</div>
+              <div>
+                <h5>
+                    <span lang="en">Robot Sensor Programming (Panasonic)</span>
+                    <span lang="pl">Programowanie Sensorów Robotów (Panasonic)</span>
+                </h5>
+                <span>
+                    <span lang="en"></span>
+                    <span lang="pl"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification-flex">
+              <div class="qualification-years">2016</div>
+              <div>
+                <h5>
+                    <span lang="en">Offline Robot Programming in DTPS (Panasonic)</span>
+                    <span lang="pl">Programowanie Robotów Off-line (Panasonic)</span>
+                </h5>
+                <span>
+                    <span lang="en"></span>
+                    <span lang="pl"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification-flex">
+              <div class="qualification-years">2016</div>
+              <div>
+                <h5>
+                    <span lang="en">Stitch Software Training (Panasonic)</span>
+                    <span lang="pl">Zrobotyzowane Spawanie Aluminium Metodą Pulse Stich (Panasonic)</span>
+                </h5>
+                <span>
+                    <span lang="en"></span>
+                    <span lang="pl"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification-flex">
+              <div class="qualification-years">2022</div>
+              <div>
+                <h5>
+                    <span lang="en">Maraton CSS, HTML (Go IT)</span>
+                    <span lang="pl">Maraton CSS, HTML (Go IT)</span>
+                </h5>
+                <span>
+                    <span lang="en"></span>
+                    <span lang="pl"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification-flex">
+              <div class="qualification-years">2023</div>
+              <div>
+                <h5>
+                    <span lang="en">Front-end Developer Course – JS + React (CodeMe)</span>
+                    <span lang="pl">Kurs Front-end Developer – JS + React (CodeMe)</span>
+                </h5>
+                <span>
+                    <span lang="en"></span>
+                    <span lang="pl"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification-flex">
+              <div class="qualification-years">2023</div>
+              <div>
+                <h5>
+                    <span lang="en">Programming in PHP from scratch (Udemy)</span>
+                    <span lang="pl">Programowanie w PHP od podstaw (Udemy)</span>
+                </h5>
+                <span>
+                    <span lang="en"></span>
+                    <span lang="pl"></span>
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification-flex">
+              <div class="qualification-years">2023</div>
+              <div>
+                <h5>
+                    <span lang="en">Laravel Framework - the great PHP developer's compendium (Udemy)</span>
+                    <span lang="pl">Laravel Framework - wielkie kompendium programisty PHP (Udemy)</span>
+                </h5>
+                <span>
+                    <span lang="en"></span>
+                    <span lang="pl"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="qualification-right">
+          <h1 class="qualification-title"><span lang="en" class="color5">WORK</span><span lang="pl" class="color5">PRACA</span></h1>
+          <div class="qualification-flex">
+            <div class="qualification-years">2011<br>|<br>2012</div>
+            <div>
+              <h5>
+                <span lang="en">"Mały Inżynier" - Robotics instructor</span>
+                <span lang="pl">"Mały Inżynier" - Instruktor zajęć robotyki</span>
+              </h5><br>
+              <span  lang="en">
+                <ul>
+                  <li>Conducting classes in Automation and Robotics for children aged 8-16 years,</li>
+                  <li>Conducting classes about Programming "LEGO Mindstorms" for children aged 8-16 years,</li>
+                  <li>Conducting workshops and demonstrations in Automation and Robotics,</li>
+                  <li>Preparation of technical demonstrations about Automation and Robotics.</li>
+                </ul>
+              </span>
+              <span lang="pl">
+                <ul>
+                  <li>Prowadzenie zajęć z robotyki i automatyki dla dzieci w wieku 8-16 lat,</li>
+                  <li>Prowadzenie zajęć z programowania "LEGO Mindstorms" dla dzieci w wieku 8-16 lat</li>
+                  <li>Prowadzenie warsztatów i pokazów z zakresu automatyki i robotyki</li>
+                  <li>Przygotowywanie i projektowanie pokazów technicznych z zakresu Automatyki i Robotyki.</li>
+                </ul>
+              </span>
+            </div>
+          </div>
+          <div class="qualification-flex">
+            <div class="qualification-years">2012<br>|<br>2013</div>
+            <div>
+              <h5>
+                <span lang="en">"Pebos IT" - IT Specialist</span>
+                <span lang="pl">"Pebos IT" - Technik Informatyk</span>
+              </h5><br>
+              <span lang="en">
+                <ul>
+                  <li>Design and implementation of the CRM system. Used techologies - PHP, MYSQL, JS, CSS, HTML.</li>
+                  <li>Programming of AVR microcontrollers,</li>
+                  <li>Installation of computer and electrical networks,</li>
+                  <li>Computer hardware service,</li>
+                  <li>IT helpdesk for office and production workers.</li>
+                </ul>
+              </span>
+              <span lang="pl">
+                <ul>
+                  <li>Projektowanie i wdrożenie systemu CRM. Wykorzystane technologie - PHP, MYSQL, JS, CSS, HTML,</li>
+                  <li>Programowanie mikrokontrolerów AVR,</li>
+                  <li>Instalacja sieci komputerowych,</li>
+                  <li>Serwis komputerów,</li>
+                  <li>Pomoc techniczna IT dla pracowników i firm zewnętrznych.</li>
+                </ul>
+              </span>
+            </div>
+          </div>
+          <div class="qualification-flex">
+            <div class="qualification-years">2013<br>|<br>2023</div>
+            <div>
+              <h5>
+                <span lang="en">"Technika Spawalnicza" - Programmer / Robotization specialist</span>
+                <span lang="pl">"Technika Spawalnicza" - Programista / Specjalista ds. Robotyzacji</span>
+              </h5><br>
+              <span lang="en">
+                <ul>
+                  <li>Design and implementation of the CRM system. Used techologies - PHP, Laravel, MYSQL, Bootstrap, JavaScript, HTML, CSSS.
+                    Integration with Leaflet Open Street Maps, FullCalendar.io.
+                    and preparation of offers in PDF - since 2022.</li>
+                  <li>Online / offline robot programming - weldingapplications MAG/MIG/TIG, handling, welding, usingsensors and laser sensors,</li>
+                  <li>Creating scripts/macros to automate processes ofwriting/modifying offline programs using G2PCTOOLprogramm (C++),</li>
+                  <li>Creating the concept of robotic systems (with 3Dmodeling) and their valuation, contact with the client,</li>
+                  <li>Conducting robot online / offline programming training,</li>
+                </ul>
+              </span>
+              <span lang="pl">
+                <ul>
+                  <li>Zaprojektowanie i wdrożenie systemu CRM. Wykorzystane technologie - PHP, Laravel, MYSQL, Bootstrap, JavaScript, HTML, CSSS.
+                    Integracja z mapami Leaflet Open Street, FullCalendar.io.
+                    oraz przygotowanie ofert do PDF - od 2022 roku.</li>
+                  <li>Programowanie Online / offline  robotów - spawaniczych MAG/MIG/TIG, manipulacyjnych, z wykorzystaniem sensorów dotyku i łuku</li>
+                  <li>Tworzenie skryptów i makr roższerzającyh możliwości pakietu programów G2PCTOOL do programowania robotów offline (C++),</li>
+                  <li>Tworzenie wizualizacji 3D nowych systemów zrobotyzowanych, ich wycena oraz kontakt z klientem,</li>
+                  <li>Prowadzenie szkoleń z programowania robotów offline / online.</li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------- Projects---------------------------------------- -->
+    <section id="section-projects"><div class="section-nav-mobile-overlay"></div>
+      <div id="projects-inside">
+          <!-- --- TS --- -->
+          <div class="projects-card">
+            <img src="public/img/portfolio_01.jpg" class="projects-img" id="projects-img-1"/>
+            <div class="projects-card-body">
+              <h6 class="projects-card-title">
+                <span lang="en">Management Platform</span>
+                <span lang="pl">Platforma do zarządzania</span>
+              </h6>
+              <p class="projects-card-text">
+                <span lang="en">A multifunctional platform prepared specially for the company's needs.</span>
+                <span lang="pl">Wielofunkcyjna platforma przygotowana specjalnie na potrzeby firmy.</span>
+              </p>
+            </div>
+              <div class="projects-bottom">
+                <div class="projects-buttons">
+                  <a class="projects-button-left" href="https://www.youtube.com/watch?v=wAOztZSRKtQ&ab_channel=KarolJ%C4%99drzejak">
+                    <span lang="en">View</span>
+                    <span lang="pl">Zobacz</span>
+                  </a>
+                  <a class="projects-button-right-grey">
+                    <span lang="en">Code</span>
+                    <span lang="pl">Kod</span>
+                  </a>
+                </div>
+                <small class="projects-year">2022</small>
+              </div>
+          </div>
+          <!-- --- TS --- -->
+          <div class="projects-card">
+              <img src="public/img/portfolio_02.jpg" class="projects-img" id="projects-img-2"/>
+              <div class="projects-card-body">
+                <h6 class="projects-card-title">
+                  <span lang="en">GPS Coordinates Finder</span>
+                  <span lang="pl">Wyszukiwarka Współrzędnych GPS</span>
+                </h6>
+                <p class="projects-card-text">
+                  <span lang="en">Aplication for finding GPS coordinates based on adress or the other way (GPS->adress).</span>
+                  <span lang="pl">Aplikacja do wyszukiwania wpsółrzędnych GPS na pdostawie adresu bądź w drugą stronę (GPS->adres).</span>
+                </p>
+              </div>
+                <div class="projects-bottom">
+                  <div class="projects-buttons">
+                    <a class="projects-button-left-grey">
+                      <span lang="en">View</span>
+                      <span lang="pl">Zobacz</span>
+                    </a>
+                    <a class="projects-button-right" href="public/CV/Karol Jędrzejak - CV - ENG.pdf">
+                      <span lang="en">Code</span>
+                      <span lang="pl">Kod</span>
+                    </a>
+                  </div>
+                  <small class="projects-year">2023</small>
+                </div>
+          </div>
+          <!-- --- TS --- -->
+          <div class="projects-card">
+              <img src="public/img/portfolio_00.jpg" class="projects-img" id="projects-img-3"/>
+              <div class="projects-card-body">
+                <h6 class="projects-card-title">
+                  <span lang="en">Next Project</span>
+                  <span lang="pl">Kolejny Projekt</span>
+                </h6>
+                <p class="projects-card-text">
+                  <span lang="en">If you are interested in working with me or have an idea for an interesting application - contact me.</span>
+                  <span lang="pl">Jeśli jesteś zainteresowany współpracą ze mną bądź masz pomysł na ciekawą aplikacje - skontaktuj się.</span>
+                </p>
+              </div>
+                <div class="projects-bottom">
+                  <div class="projects-buttons">
+                    <a class="projects-button-left-grey">
+                      <span lang="en">View</span>
+                      <span lang="pl">Zobacz</span>
+                    </a>
+                    <a class="projects-button-right-grey">
+                      <span lang="en">Code</span>
+                      <span lang="pl">Kod</span>
+                    </a>
+                  </div>
+                  <small class="projects-year">2023</small>
+                </div>
+          </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------- Contact ---------------------------------------- -->
+    <section id="section-contact">
+      <div class="section-nav-mobile-overlay"></div>
+      <div id="contact-inside">
+        <div id="contact-box">
+          <h1><span lang="en" class="color5">CONTACT</span><span lang="pl">KONTAKT</span></h1><br/>
+          <div>
+              <h3 class="color4">
+                  <span lang="en">PHONE</span>
+                  <span lang="pl">TELEFON</span>
+              </h3><br>
+              <a class="button" href="tel:+48693462163" class="btn btn-light">+48 693 462 163</a>
+          </div>&nbsp;<br/>&nbsp;<br/>
+          <div>
+              <h3 class="color4">E-MAIL</h3><br>
+              <a class="button" href = "mailto: karol.jedrzejak@gmail.com" class="btn btn-light">karol.jedrzejak@gmail.com</a>
+          </div>&nbsp;<br/>&nbsp;<br/>
+          <div>
+              <h3 class="color4">
+                  <span lang="en">HOME CITY</span>
+                  <span lang="pl">MIASTO</span>
+              </h3><br/>
+              <a class="button" href = "https://www.google.com/maps/place/Pozna%C5%84" class="btn btn-light">
+              <span lang="en">Poznań, POLAND</span>
+              <span lang="pl">Poznań, POLSKA</span></a>
+          </div><br/>
+          <div>
+            <a
+              href="https://www.facebook.com/kjzlo"
+              target="_blank"
+              class="about-social-icon"
+            >
+              <i class="uil uil-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/karol-jedrzejak/"
+              target="_blank"
+              class="about-social-icon"
+            >
+              <i class="uil uil-linkedin"></i>
+            </a>
+          </div>
+          <div><span lang="en,pl"><a class="background-photo-credits" href="https://www.vecteezy.com/free-photos">background photo taken from Vecteezy</a></span></div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="resources/js/main.js"></script>
+</html>

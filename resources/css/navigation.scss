@@ -1,0 +1,182 @@
+// ----------------- Navigation -----------------
+
+nav {
+  background-color: var(--color3);
+  display: flex;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 719px) {
+  .section-nav-mobile-overlay {
+    display: block;
+    position: absolute;
+    z-index: -10;
+    opacity: 0.7;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s;
+  }
+}
+
+// ----------------- Logo -----------------
+
+.navi-logo {
+  margin-top: 7px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+#navi-logo-letter-1 {
+  fill: var(--color5);
+}
+
+#navi-logo-letter-2 {
+  fill: var(--color4);
+}
+
+// ----------------- Navi Buttons -----------------
+
+.nav-button {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  background: none;
+  border: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 719px) {
+  .navi-comp {
+    display: none;
+  }
+}
+
+.nav-button:hover {
+  color: var(--color5);
+}
+
+.active {
+  opacity: 1;
+}
+
+.nav-button:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px var(--color5);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 100% 50%;
+}
+
+.nav-button:hover:after {
+  transform: scaleX(1);
+  transform-origin: 0 50%;
+}
+
+// ----------------- Buttons Mobile -----------------
+
+#nav-mobile {
+  display: flex;
+  position: absolute;
+  z-index: 99;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding: 87px 0 20px 0;
+  top: -300px;
+
+  width: 100%;
+  height: 200px;
+  background-color: var(--color3);
+  transition: 1s;
+}
+
+@media screen and (min-width: 720px) {
+  #nav-mobile {
+    display: none;
+  }
+}
+
+// ----------------- Language Select -----------------
+
+.right-nav-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.flag {
+  height: 12px;
+  margin-right: 5px;
+}
+
+.language {
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.language:hover {
+  color: var(--color5);
+  box-shadow: -2px 0px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+// ----------------- Hamburger -----------------
+
+.hamb-button {
+  font-weight: bold;
+  background: none;
+  border: 0;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 720px) {
+  .hamb-button {
+    display: none;
+  }
+}
+
+.hamb-button div {
+  position: relative;
+  width: 2em;
+  height: 4px;
+  border-radius: 3px;
+  background-color: var(--color4);
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked + .hamb-button .hamb-button-1 {
+  transform: rotate(-45deg);
+  margin-top: 15px;
+}
+
+#toggle:checked + .hamb-button .hamb-button-2 {
+  transform: rotate(45deg);
+  margin-top: -4px;
+}
+
+#toggle:checked + .hamb-button .hamb-button-3 {
+  opacity: 0;
+  transform: rotate(45deg);
+}
