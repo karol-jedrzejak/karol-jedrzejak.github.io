@@ -87,33 +87,40 @@
   margin-bottom: 0.5rem;
 }
 
+/* 
 @media screen and (max-width: 719px) {
   #projects-img-1 {
     content: url("../../public/img-mobile/portfolio_01.jpg");
   }
 }
+
 @media screen and (max-width: 719px) {
   #projects-img-2 {
     content: url("../../public/img-mobile/portfolio_02.jpg");
   }
 }
+
 @media screen and (max-width: 719px) {
   #projects-img-3 {
     content: url("../../public/img-mobile/portfolio_00.jpg");
   }
 }
+
 @media screen and (max-width: 719px) {
   #projects-img-4 {
     content: url("../../public/img-mobile/portfolio_00.jpg");
   }
 }
+
 @media screen and (max-width: 719px) {
   #projects-img-5 {
     content: url("../../public/img-mobile/portfolio_00.jpg");
   }
 }
+
 @media screen and (max-width: 719px) {
   #projects-img-6 {
     content: url("../../public/img-mobile/portfolio_00.jpg");
   }
-}/*# sourceMappingURL=projects.css.map */
+}
+ *//*# sourceMappingURL=projects.css.map */
