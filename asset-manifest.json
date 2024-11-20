@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.9268a79d.css",
-    "main.js": "/static/js/main.77964ab9.js",
+    "main.css": "/static/css/main.099db418.css",
+    "main.js": "/static/js/main.b8a671a3.js",
     "static/js/453.5e314e22.chunk.js": "/static/js/453.5e314e22.chunk.js",
     "static/media/about.jpg": "/static/media/about.dc2b9863a6ae6abbc90a.jpg",
     "static/media/portret.png": "/static/media/portret.4dca4d8dbd6a3bc17375.png",
+    "static/media/pexels-photo-3184450.jpeg": "/static/media/pexels-photo-3184450.60f51e7dbc20c0fdf1fa.jpeg",
     "static/media/3.jpg": "/static/media/3.3e9121c624e6defc1df6.jpg",
     "static/media/8.jpg": "/static/media/8.23a44ece6976118628dc.jpg",
     "static/media/Karol Jędrzejak - CV - PL.pdf": "/static/media/Karol Jędrzejak - CV - PL.55e2670193c94073a81f.pdf",
@@ -17,12 +18,12 @@
     "static/media/7.jpg": "/static/media/7.d4bc98b6d4d3a897dc9d.jpg",
     "static/media/coding.jpg": "/static/media/coding.d1273b8416e386ce126a.jpg",
     "index.html": "/index.html",
-    "main.9268a79d.css.map": "/static/css/main.9268a79d.css.map",
-    "main.77964ab9.js.map": "/static/js/main.77964ab9.js.map",
+    "main.099db418.css.map": "/static/css/main.099db418.css.map",
+    "main.b8a671a3.js.map": "/static/js/main.b8a671a3.js.map",
     "453.5e314e22.chunk.js.map": "/static/js/453.5e314e22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9268a79d.css",
-    "static/js/main.77964ab9.js"
+    "static/css/main.099db418.css",
+    "static/js/main.b8a671a3.js"
   ]
 }
