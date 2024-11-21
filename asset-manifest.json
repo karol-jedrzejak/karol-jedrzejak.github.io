@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e0862f2.css",
-    "main.js": "/static/js/main.300f9769.js",
+    "main.css": "/static/css/main.53b14529.css",
+    "main.js": "/static/js/main.a01aca65.js",
     "static/js/453.5e314e22.chunk.js": "/static/js/453.5e314e22.chunk.js",
     "static/media/pexels-photo-3184450.jpeg": "/static/media/pexels-photo-3184450.60f51e7dbc20c0fdf1fa.jpeg",
     "static/media/portret_2.jpg": "/static/media/portret_2.37279b698ac4d1bc52b7.jpg",
     "static/media/about_2.jpg": "/static/media/about_2.e1a68ce171c0c36dc568.jpg",
+    "static/media/Karol Jędrzejak - CV - PL.pdf": "/static/media/Karol Jędrzejak - CV - PL.a6af7db2d78353be401a.pdf",
+    "static/media/Karol Jędrzejak - CV - ENG.pdf": "/static/media/Karol Jędrzejak - CV - ENG.76add627f0580f554272.pdf",
     "static/media/8.jpg": "/static/media/8.23a44ece6976118628dc.jpg",
-    "static/media/Karol Jędrzejak - CV - PL.pdf": "/static/media/Karol Jędrzejak - CV - PL.55e2670193c94073a81f.pdf",
-    "static/media/Karol Jędrzejak - CV - ENG.pdf": "/static/media/Karol Jędrzejak - CV - ENG.58ac204f953142d64612.pdf",
     "static/media/pexels-cottonbro-4065864.jpg": "/static/media/pexels-cottonbro-4065864.9f14e4aa97b6e34ca6a5.jpg",
     "static/media/portret_mobile.png": "/static/media/portret_mobile.c06ae263135b8c91b84f.png",
     "static/media/3.jpg": "/static/media/3.c8e7e9da730dbc7eefac.jpg",
@@ -19,12 +19,12 @@
     "static/media/6.jpg": "/static/media/6.85a8b66a788705d6b20a.jpg",
     "static/media/7.jpg": "/static/media/7.d4bc98b6d4d3a897dc9d.jpg",
     "index.html": "/index.html",
-    "main.8e0862f2.css.map": "/static/css/main.8e0862f2.css.map",
-    "main.300f9769.js.map": "/static/js/main.300f9769.js.map",
+    "main.53b14529.css.map": "/static/css/main.53b14529.css.map",
+    "main.a01aca65.js.map": "/static/js/main.a01aca65.js.map",
     "453.5e314e22.chunk.js.map": "/static/js/453.5e314e22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e0862f2.css",
-    "static/js/main.300f9769.js"
+    "static/css/main.53b14529.css",
+    "static/js/main.a01aca65.js"
   ]
 }
