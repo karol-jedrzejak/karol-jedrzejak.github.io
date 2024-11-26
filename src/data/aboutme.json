@@ -1,0 +1,14 @@
+[
+  {
+    "pl": "Nazywam się Karol Jędrzejak. Od dziecka interesowałem się informatyką i robotyką. Moją naukę w tych dziedzinach zacząłem w szkole średniej w klasie o profilu informatycznym. Następnie ukończyłem studia na profilu Automatyka i Robotyka uzyskując tytuł magistra inżyniera.",
+    "eng": "My name is Karol Jędrzejak. I have been interested in computer science and robotics since I was a child. I started my education in these fields in high school in an IT class. Then I completed studies in the Automation and Robotics profile, obtaining a master's degree in engineering."
+  },
+  {
+    "pl": "Obecnie w pracuję w firmie Technika Spawalnicza w roli programisty i specjalisty ds. robotyzacji. W obecnej pracy zajmuje się zarówno programowaniem webowej aplikacji CRM (laravel, php, mysql, bootstrap) jak również programowaniem robotów.",
+    "eng": "Currently, I work at Technika Spawalnicza as a programmer and robotization specialist. In current job, i deal with both programming CRM web applications (laravel, php, mysql, bootstrap) and programming industrial robots."
+  },
+  {
+    "pl": "Do moich głównych zainteresowań poza pracą należy bieganie i muzyka. Gram na gitarze i śpiewać w zespole rockowym. Kolekcjonuję płyty winylowe. Lubię grać z znajomymi w gry planszowe i karciane (MTG). W wolnym czasie oglądam stare filmy s-f i horrory z lat 80-90 i uczę się nowych rzeczy związanych z programowaniem.",
+    "eng": "My main interests outside of work are running and music. I play guitar and sing in a rock band. I collect vinyl records. I like playing board and card games (MTG) with my friends. In my free time, I watch old science fiction and horror movies from the 80s and 90s and learn new things related to programming."
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "pl": "Programowanie Robotów (Panasonic)",
+      "eng": "Industrial Robot Programming (Panasonic)"
+    },
+    "date_start": 2013,
+    "date_end": 2013
+  },
+  {
+    "id": 2,
+    "name": {
+      "pl": "Programowanie Sensorów Robotów (Panasonic)",
+      "eng": "Robot Sensor Programming (Panasonic)"
+    },
+    "date_start": 2015,
+    "date_end": 2015
+  },
+  {
+    "id": 3,
+    "name": {
+      "pl": "Programowanie Robotów Off-line (Panasonic)",
+      "eng": "Offline Robot Programming in DTPS (Panasonic)"
+    },
+    "date_start": 2016,
+    "date_end": 2016
+  },
+  {
+    "id": 4,
+    "name": {
+      "pl": "Zrobotyzowane Spawanie Aluminium (Panasonic)",
+      "eng": "Robotised Aluminium Welding (Panasonic)"
+    },
+    "date_start": 2016,
+    "date_end": 2016
+  },
+  {
+    "id": 5,
+    "name": {
+      "pl": "Maraton CSS, HTML (Go IT)",
+      "eng": "Maraton CSS, HTML (Go IT)"
+    },
+    "date_start": 2022,
+    "date_end": 2022
+  },
+  {
+    "id": 6,
+    "name": {
+      "pl": "Programowanie w PHP od podstaw (Udemy)",
+      "eng": "Programming in PHP from scratch (Udemy)"
+    },
+    "date_start": 2022,
+    "date_end": 2022
+  },
+  {
+    "id": 7,
+    "name": {
+      "pl": "Kurs Laravel Framework (Udemy)",
+      "eng": "Laravel Framework Course (Udemy)"
+    },
+    "date_start": 2022,
+    "date_end": 2022
+  },
+  {
+    "id": 8,
+    "name": {
+      "pl": "Kurs Front-end Developer – JS + React (CodeMe)",
+      "eng": "Front-end Developer Course – JS + React (CodeMe)"
+    },
+    "date_start": 2023,
+    "date_end": 2023
+  },
+  {
+    "id": 9,
+    "name": {
+      "pl": "Symfony Framework (Udemy)",
+      "eng": "Symfony Framework (Udemy)"
+    },
+    "date_start": 2024,
+    "date_end": 2024
+  }
+]

@@ -1,0 +1,38 @@
+:root {
+  --color1: rgb(241, 245, 249);
+  --color2: rgb(30, 41, 59);
+  --color3: rgb(21, 94, 117);
+}
+
+aside {
+  height: 287mm;
+  width: 60mm;
+  background-color: rgb(241, 245, 249);
+  text-align: center;
+  margin: 3mm;
+  padding: 2mm;
+  border-radius: 45mm 45mm 5mm 5mm;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  height: 16mm;
+  width: 138mm;
+  margin: 5mm 5mm 5mm 0;
+  border-radius: 5mm 0 5mm 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: rgb(30, 41, 59);
+}
+
+main {
+  height: 261mm;
+  width: 143mm;
+  padding: 0mm 5mm 5mm 5mm;
+}

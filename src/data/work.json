@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "company": "Mały Inżynier",
+    "position": {
+      "pl": "Instruktor zajęć robotyki",
+      "eng": "Robotics instructor"
+    },
+    "duties": [
+      {
+        "pl": "Prowadzenie zajęć z robotyki i automatyki dla dzieci w wieku 8-16 lat,",
+        "eng": "Conducting classes in Automation and Robotics for children aged 8-16 years,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Prowadzenie zajęć z programowania 'LEGO Mindstorms' dla dzieci w wieku 8-16 lat,",
+        "eng": "Conducting classes about Programming 'LEGO Mindstorms' for children aged 8-16 years,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Prowadzenie warsztatów i pokazów z zakresu automatyki i robotyki,",
+        "eng": "Conducting workshops and demonstrations in Automation and Robotics,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Przygotowywanie i projektowanie pokazów technicznych z zakresu Automatyki i Robotyki,",
+        "eng": "Preparation of technical demonstrations about Automation and Robotics,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      }
+    ],
+    "date_start": 2011,
+    "date_end": 2012
+  },
+  {
+    "id": 2,
+    "company": "Pebos IT",
+    "position": {
+      "pl": "Technik Informatyk",
+      "eng": "IT Specialist"
+    },
+    "duties": [
+      {
+        "pl": "Projektowanie i wdrożenie systemu CRM. Wykorzystane technologie - PHP, MYSQL, JS, CSS, HTML,",
+        "eng": "Design and implementation of the CRM system - used techologies - PHP, MYSQL, JS, CSS, HTML,",
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Programowanie mikrokontrolerów AVR,",
+        "eng": "Programming of AVR microcontrollers,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Instalacja sieci komputerowych,",
+        "eng": "Installation of computer and electrical networks,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Serwis komputerów,",
+        "eng": "Computer hardware service,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Pomoc techniczna IT dla pracowników i firm zewnętrznych,",
+        "eng": "IT helpdesk for office and production workers,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      }
+    ],
+    "date_start": 2012,
+    "date_end": 2013
+  },
+  {
+    "id": 3,
+    "company": "Technika Spawalnicza",
+    "position": {
+      "pl": "Specjalista ds. Robotyzacji",
+      "eng": "Robotization specialist"
+    },
+    "duties": [
+      {
+        "pl": "Prowadzenie sprzedaży i realizacji zrobotyzowanych stanowisk spawalniczych - rozmowy biznesowe, ofertowanie, przygotowanie layoutów 3D, wizyty referencyjne, prowadzenie projektu, nadzór nad pracą poszczególnych działów,",
+        "eng": "Sales and implementation of robotic welding stations - business talks, offers, preparation of 3D layouts, reference visits, project management, supervision of the work of individual departments,",
+        "website": false,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "pl": "Programowanie Online / offline robotów - spawalniczych MAG/MIG/TIG, manipulacyjnych, z wykorzystaniem sensorów dotyku i łuku,",
+        "eng": "Online / offline robot programming - welding applications MAG/MIG/TIG, handling, with use of sensors and laser sensors,",
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "pl": "Tworzenie skryptów i makr rozszerzających możliwości pakietu programów G2PCTOOL do programowania robotów offline (C++),",
+        "eng": "Creating scripts/macros to automate processes ofwriting/modifying offline programs using G2PCTOOLprogramm (C++),",
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "pl": "Tworzenie wizualizacji 3D nowych systemów zrobotyzowanych, ich wycena oraz kontakt z klientem,",
+        "eng": "Creating the concept of robotic systems (with 3Dmodeling) and their valuation, contact with the client,",
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Prowadzenie szkoleń z programowania robotów offline / online,",
+        "eng": "Conducting robot online / offline programming training,",
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "pl": "Organizacja i uczestnictwo w targach branżowych w całej Polsce i za granicą,",
+        "eng": "Organization and participation in industry fairs in Poland and abroad,",
+        "website": true,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "pl": "Przygotowywanie materiałów promocyjnych (prezentacje, filmy, katalogi),",
+        "eng": "Preparation of promotional materials (presentations, films, catalogues),",
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      }
+    ],
+    "date_start": 2013,
+    "date_end": 2022
+  },
+  {
+    "id": 4,
+    "company": "Technika Spawalnicza",
+    "position": {
+      "pl": "Programista & Specjalista ds. Robotyzacji,",
+      "eng": "Programmer & Robotization specialist,"
+    },
+    "duties": [
+      {
+        "pl": "Zaprojektowanie i wdrożenie systemu CRM. Wykorzystane technologie: PHP, Laravel, MYSQL, Bootstrap, JavaScript, HTML, CSSS. Integracja z api Leaflet Open Street i NBP, oraz przygotowanie ofert do PDF,",
+        "eng": "Design and implementation of the CRM system. Used techologies: PHP, Laravel, MYSQL, Bootstrap, JavaScript, HTML, CSSS. Integration with Leaflet Open Street Maps api and NBP api, and preparation of offers in PDF,",
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "pl": "Koordynacja i nadzór nad działem programowania robotów jako starszy programista,",
+        "eng": "Coordination and supervision of the robot programming department as a senior programmer,",
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "pl": "Zakres obowiązków z poprzedniego stanowiska,",
+        "eng": "Responsibilities from the previous position,",
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      }
+    ],
+    "date_start": 2022,
+    "date_end": null
+  }
+]

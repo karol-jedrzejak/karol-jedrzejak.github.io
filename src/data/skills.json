@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "eng": "BACK END",
+    "pl": "BACK END",
+    "data": [
+      {
+        "id": 1,
+        "name": { "pl": "PHP", "eng": "PHP" },
+        "scale_10": 7,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 2,
+        "name": { "pl": "Laravel", "eng": "Laravel" },
+        "scale_10": 5,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 3,
+        "name": { "pl": "Symfony", "eng": "Symfony" },
+        "scale_10": 4,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 4,
+        "name": { "pl": "MYSQL", "eng": "MYSQL" },
+        "scale_10": 6,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "eng": "FRONT END",
+    "pl": "FRONT END",
+    "data": [
+      {
+        "id": 1,
+        "name": { "pl": "HTML/CSS/SCSS", "eng": "HTML/CSS/SCSS" },
+        "scale_10": 8,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 2,
+        "name": { "pl": "JavaScript", "eng": "JavaScript" },
+        "scale_10": 6,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 3,
+        "name": { "pl": "React", "eng": "React" },
+        "scale_10": 6,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 4,
+        "name": { "pl": "Bootstrap", "eng": "Bootstrap" },
+        "scale_10": 8,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 5,
+        "name": { "pl": "Tailwind", "eng": "Tailwind" },
+        "scale_10": 5,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "eng": "OTHER SOFTWARE",
+    "pl": "INNE OPROGRAMOWANIE",
+    "data": [
+      {
+        "id": 1,
+        "name": { "pl": "Git", "eng": "Git" },
+        "scale_10": 4,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 2,
+        "name": { "pl": "Docker", "eng": "Docker" },
+        "scale_10": 3,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 3,
+        "name": { "pl": "Ai Prompts", "eng": "Ai Prompts" },
+        "scale_10": 3,
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "id": 4,
+        "name": { "pl": "MS Office", "eng": "MS Office" },
+        "scale_10": 9,
+        "website": true,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "eng": "ROBOTICS",
+    "pl": "ROBOTYKA",
+    "data": [
+      {
+        "id": 1,
+        "name": {
+          "pl": "Robotyka Offline",
+          "eng": "Robotics Offline"
+        },
+        "scale_10": 9,
+        "website": true,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "id": 2,
+        "name": {
+          "pl": "Robotyka Online",
+          "eng": "Robotics Online"
+        },
+        "scale_10": 9,
+        "website": true,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "id": 3,
+        "name": {
+          "pl": "Spawanie",
+          "eng": "Welding"
+        },
+        "scale_10": 7,
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": true
+      },
+      {
+        "id": 4,
+        "name": {
+          "pl": "LARAVEL/PHP",
+          "eng": "LARAVEL/PHP"
+        },
+        "scale_10": 6,
+        "website": false,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "id": 5,
+        "name": {
+          "pl": "JS/REACT",
+          "eng": "JS/REACT"
+        },
+        "scale_10": 6,
+        "website": false,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "id": 6,
+        "name": {
+          "pl": "MYSQL",
+          "eng": "MYSQL"
+        },
+        "scale_10": 5,
+        "website": false,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "eng": "GRAPHICS / VIDEO",
+    "pl": "GRAFIKA / VIDEO",
+    "data": [
+      {
+        "id": 1,
+        "name": { "pl": "Corel Draw/Photo", "eng": "Corel Draw/Photo" },
+        "scale_10": 8,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 2,
+        "name": { "pl": "Movie Studio", "eng": "Movie Studio" },
+        "scale_10": 8,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 3,
+        "name": { "pl": "DaVinci Resolve", "eng": "DaVinci Resolve" },
+        "scale_10": 5,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "eng": "LANGUAGES",
+    "pl": "JĘZYKI",
+    "data": [
+      {
+        "id": 1,
+        "name": { "pl": "Polski", "eng": "Polish" },
+        "degree": "C2",
+        "scale_10": 10,
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "id": 2,
+        "name": { "pl": "Angielski", "eng": "English" },
+        "degree": "B2",
+        "scale_10": 6,
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      },
+      {
+        "id": 3,
+        "name": { "pl": "Niemiecki", "eng": "German" },
+        "degree": "A1",
+        "scale_10": 2,
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      }
+    ]
+  }
+]

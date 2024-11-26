@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "pl": "Strona zespołu Exiled",
+      "eng": "Exiled band website"
+    },
+    "description": {
+      "pl": "Strona zespołu Exiled w którym grałem na gitarze i spiewałem.",
+      "eng": "Website of the band Exiled in which I played and sing."
+    },
+    "date_start": 2021,
+    "date_end": 2021,
+    "tech": ["javascript", "css", "html"],
+    "code_link": "https://github.com/karol-jedrzejak/Exiled",
+    "demo_link": null
+  },
+  {
+    "id": 2,
+    "name": { "pl": "Żłobek 'Cypisek'", "eng": "'Cypisek' Nursery" },
+    "description": {
+      "pl": "Strona żłobka 'Cypisek'.",
+      "eng": "'Cypisek' nursery webiste."
+    },
+    "date_start": 2022,
+    "date_end": 2022,
+    "tech": ["javascript", "css", "html"],
+    "code_link": "https://github.com/karol-jedrzejak/Zlobek-Cypisek",
+    "demo_link": null
+  },
+  {
+    "id": 3,
+    "name": {
+      "pl": "Platforma do zarządzania",
+      "eng": "Management Platform"
+    },
+    "description": {
+      "pl": "Wielofunkcyjna platforma przygotowana specjalnie na potrzeby firmy Technika Spawalnicza.",
+      "eng": "A multifunctional platform prepared specially for the company's needs. Created for Technika Spawalnicza Company."
+    },
+    "date_start": 2022,
+    "date_end": 2023,
+    "tech": ["php", "mysql", "javascript", "scss", "html"],
+    "code_link": null,
+    "demo_link": null
+  },
+  {
+    "id": 4,
+    "name": {
+      "pl": "Kalendarz Zespołowej Sali Prób",
+      "eng": "Band Rehersal Calendar"
+    },
+    "description": {
+      "pl": "Aplikacja z kalendarzem do rezerwacji sali prób. Projekt zaliczeniowy kursu Reacta.",
+      "eng": "Application with a calendar for booking band rehearsal room. Final project from the React course."
+    },
+    "date_start": 2023,
+    "date_end": 2023,
+    "tech": ["react", "bootstrap", "javascript", "css", "html"],
+    "code_link": "https://github.com/karol-jedrzejak/Band-Rehersal-Calendar",
+    "demo_link": null
+  },
+  {
+    "id": 5,
+    "name": {
+      "pl": "Wyszukiwarka Współrzędnych GPS",
+      "eng": "GPS Coordinates Finder"
+    },
+    "description": {
+      "pl": "Aplikacja do wyszukiwania współrzędnych GPS na podstawie adresu bądź w drugą stronę (GPS->adres).",
+      "eng": "Aplication for finding GPS coordinates based on adress or the other way (GPS->adress)."
+    },
+    "date_start": 2023,
+    "date_end": 2023,
+    "tech": ["javascript", "css", "html"],
+    "code_link": "https://github.com/karol-jedrzejak/GPS-Coordinates-Finder",
+    "demo_link": null
+  },
+  {
+    "id": 6,
+    "name": {
+      "pl": "Strona zespołu Shots From Deneb",
+      "eng": "Shots From Deneb band website"
+    },
+    "description": {
+      "pl": "Strona zespołu w którym grałem na gitarze.",
+      "eng": "Website of the band in which I played guitar."
+    },
+    "date_start": 2023,
+    "date_end": 2023,
+    "tech": ["react", "javascript", "css", "html"],
+    "code_link": "https://github.com/karol-jedrzejak/shots-from-deneb",
+    "demo_link": null
+  },
+  {
+    "id": 7,
+    "name": { "pl": "Statystki miast", "eng": "City Stats" },
+    "description": {
+      "pl": "Strona wyświetlająca statystyki dotyczące miast na świecie.",
+      "eng": "A website displaying statistics about cities around the world."
+    },
+    "date_start": 2024,
+    "date_end": 2024,
+    "tech": ["symfony", "php", "react", "tailwind", "api", "javascript", "jsx"],
+    "code_link": "https://github.com/karol-jedrzejak/city_stats_react",
+    "demo_link": null
+  },
+  {
+    "id": 8,
+    "name": {
+      "pl": "Platforma do zarządzania V2",
+      "eng": "Management Platform V2"
+    },
+    "description": {
+      "pl": "Wielofunkcyjna platforma przygotowana specjalnie na potrzeby firmy Technika Spawalnicza.",
+      "eng": "A multifunctional platform prepared specially for the company's needs. Created for Technika Spawalnicza Company."
+    },
+    "date_start": 2023,
+    "date_end": null,
+    "tech": [
+      "laravel",
+      "php",
+      "mysql",
+      "bootstrap",
+      "jquerry",
+      "javascript",
+      "scss",
+      "html"
+    ],
+    "code_link": null,
+    "demo_link": "https://www.youtube.com/watch?v=wAOztZSRKtQ&ab_channel=KarolJ%C4%99drzejak"
+  }
+]

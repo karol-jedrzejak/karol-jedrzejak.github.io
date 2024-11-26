@@ -1,13 +1,220 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.start-photo {
+  background-size: 100% 100vh;
+  background-repeat: repeat-y;
+  animation: coding 10s linear infinite;
+  filter: drop-shadow(2px -2px 0 rgba(0, 0, 0, 0.1))
+    drop-shadow(-2px 2px 0 rgba(0, 0, 0, 0.1))
+    drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.1))
+    drop-shadow(-2px -2px 0 rgba(0, 0, 0, 0.1));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes coding {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100vh;
+  }
+}
+
+.animate-opacity {
+  opacity: 0;
+  animation: opacity-0-1 1s linear;
+  animation-fill-mode: forwards;
+}
+
+.animate-delay-0_5 {
+  animation-delay: 0.5s;
+}
+.animate-delay-1 {
+  animation-delay: 1s;
+}
+.animate-delay-1_5 {
+  animation-delay: 1.5s;
+}
+.animate-delay-2 {
+  animation-delay: 2s;
+}
+.animate-delay-2_5 {
+  animation-delay: 2.5s;
+}
+.animate-delay-3 {
+  animation-delay: 3s;
+}
+
+@keyframes opacity-0-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-width {
+  transition: width 2s;
+}
+
+/* ----------- Fill-10 ----------- */
+
+.fill-10 {
+  animation: 0.2s fill-10 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-10 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+/* ----------- Fill-20 ----------- */
+
+.fill-20 {
+  animation: 0.4s fill-20 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-20 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+/* ----------- Fill-30 ----------- */
+
+.fill-30 {
+  animation: 0.6s fill-30 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-30 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+/* ----------- Fill-40 ----------- */
+
+.fill-40 {
+  animation: 0.8s fill-40 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-40 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+/* ----------- Fill-50 ----------- */
+
+.fill-50 {
+  animation: 1s fill-50 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-50 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+/* ----------- Fill-60 ----------- */
+
+.fill-60 {
+  animation: 1.2s fill-60 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-60 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+/* ----------- Fill-70 ----------- */
+
+.fill-70 {
+  animation: 1.4s fill-70 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-70 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+/* ----------- Fill-80 ----------- */
+
+.fill-80 {
+  animation: 1.6s fill-80 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-80 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+/* ----------- Fill-90 ----------- */
+
+.fill-90 {
+  animation: 1.8s fill-90 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-90 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+/* ----------- Fill-100 ----------- */
+
+.fill-100 {
+  animation: 2s fill-100 0.5s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fill-100 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
