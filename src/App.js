@@ -30,7 +30,7 @@ const App = () => {
   const DynamicComponent = componentsMap[current.component];
 
   let languages = [null, "pl", "eng"];
-  let types = [null, "programmer", "robotics", "manager"];
+  let types = [null, "programmer", "robotics", "manager", "panasonic"];
 
   let apptype = 1;
   let language = languages[1];

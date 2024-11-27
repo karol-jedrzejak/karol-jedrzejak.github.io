@@ -391,6 +391,96 @@ const GenerateMotivationLetter = (props) => {
           ) : (
             ""
           )}
+          {type == "panasonic" ? (
+            <div>
+              {language == "eng" ? (
+                <div className="py-8 px-6 text-sm"></div>
+              ) : (
+                /* ROBOTYK PL */
+                <div className="py-4 px-6 text-sm">
+                  <div className="indent-8 text-justify">
+                    Szanowni Państwo. Moja przygoda z programowaniem i robotyką
+                    rozpoczęła się w Liceum Ogólnokształcącym gdzie uczęszczałem
+                    do klasy o profilu informatycznym. Następnie po jej
+                    ukończeniu rozpocząłem studia na kierunku Automatyka i
+                    Robotka na wydziale informatyki Politechniki Poznańskiej. W
+                    trakcie studiów pracowałem w firmie Mały Inżynier gdzie
+                    prowadziłem zajęcia z programowania i robotyki dla dzieci.
+                    Po ukończeniu studiów i uzyskaniu tytułu magistra inżyniera
+                    rozpocząłem pracę w firmie Pebos IT na stanowisku technika
+                    informatyka. W tej pracy zajmowałem się min. programowaniem
+                    mikrokontrolerów AVR, rozwijaniem aplikacji sprzedażowej (w
+                    PHP) oraz helpdeskiem IT. Kolejnym etapem mojej kariery
+                    zawodowej jest firma Technika spawalnicza w której obecnie
+                    pracuję. Do obowiązków w mojej pracy należy min:
+                  </div>
+                  <div className="ml-6">
+                    <ul className="list-disc ">
+                      <li>
+                        Programowanie i kalibracja stanowisk zrobotyzowanych
+                        offline (w środowisku DTPS) jako główny programista
+                        offline,
+                      </li>
+                      <li>
+                        Tworzenie skryptów i makr rozszerzających możliwości
+                        pakietu programów DTPS do programowania robotów offline,
+                      </li>
+                      <li>
+                        Zaprojektowanie i wdrożenie systemu CRM na potrzeby
+                        firmy - Automatyczne generowanie ofert i wycen stanowisk
+                        do pdf, baza danych stanowisk, baza klientów,
+                        interaktywne mapy. Wykorzystane technologie: PHP,
+                        Laravel, MYSQL, Bootstrap, JavaScript, HTML, CSSS.
+                        Integracja z api google i NBP
+                      </li>
+                      <li>
+                        Sprzedaż - Kontakt z klientem, prezentacje, wizyty
+                        referencyjne, tworzenie wizualizacji 3D nowych systemów
+                        zrobotyzowanych oraz ich wycena,
+                      </li>
+                      <li>
+                        Programowanie Online robotów - spawalniczych
+                        MAG/MIG/TIG, manipulacyjnych, z wykorzystaniem sensorów
+                        dotyku i łuku,
+                      </li>
+                      <li>
+                        Prowadzenie szkoleń z programowania robotów offline /
+                        online,
+                      </li>
+                      <li>
+                        Organizacja i uczestnictwo w targach branżowych w całej
+                        Polsce i za granicą,
+                      </li>
+                      <li>
+                        Przygotowywanie materiałów promocyjnych (prezentacje,
+                        filmy, katalogi),
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="indent-8 text-justify">
+                    Wiem że poszukują państwo osób które miszkają w rejonie
+                    śląska ponieważ siedzibę mają państwo w czechach ale czy
+                    była by możliwość częściowej pracy zdalnej ? I jak
+                    procentowo to wygląda u państwa jeśli chodzi o delgacje a
+                    czas w biurze ? Jeśli czas pracy w delegacji byłby poniżej
+                    50% a zamiast pracy w biurze mógłbym pracować zdalnie to był
+                    bym zainteresowany państwa ofertą. Mam małe dziecko także
+                    relokacja niestety nie wchodzi wgrę.
+                  </div>
+                  <div className="indent-8 text-justify">
+                    Interesuje mnie praca w pełnym wymiarze godzin. Pracę mogę
+                    rozpocząć po 3 miesiącach od decyzji.
+                  </div>
+                  <div className="p-3 ml-[70mm] text-base">
+                    <div>Z Poważaniem</div>
+                    <div className="font-bold">Karol Jędrzejak</div>
+                  </div>
+                </div>
+              )}
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </>
