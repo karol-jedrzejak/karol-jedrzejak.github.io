@@ -32,7 +32,7 @@ const App = () => {
   let languages = [null, "pl", "eng"];
   let types = [null, "programmer", "robotics", "manager"];
 
-  let apptype = 2;
+  let apptype = 1;
   let language = languages[1];
   let type = types[1];
 

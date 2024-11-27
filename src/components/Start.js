@@ -6,9 +6,7 @@ import { DataContext } from "./../dataprovider/NaviData";
 import FacebookLogo from "./../assets/logos/Facebook";
 import LinkedinLogo from "./../assets/logos/Linkedin";
 
-import portret from "./../assets/photos/portret_1.jpg";
-
-//import background_code from "./../assets/backgrounds/coding.jpg";
+import portret from "./../assets/photos/portret_1.png";
 
 const Start = () => {
   const { state, actions } = useContext(DataContext);
