@@ -108,6 +108,46 @@
   {
     "id": 8,
     "name": {
+      "pl": "Zadanie eSprzedaż",
+      "eng": "'eSprzedaz' Task"
+    },
+    "description": {
+      "pl": "Projekt przygotowany na potrzeby rekrutacji w firmie sSprzedaż.",
+      "eng": "A project prepared for the recruitment process of eSprzedaż company."
+    },
+    "date_start": 2025,
+    "date_end": 2025,
+    "tech": ["laravel", "php", "bootstrap", "javascript", "html", "api"],
+    "code_link": "https://github.com/karol-jedrzejak/zadanie-esprzedaz",
+    "demo_link": null
+  },
+  {
+    "id": 9,
+    "name": {
+      "pl": "Company Contacts App",
+      "eng": "Company Contacts App"
+    },
+    "description": {
+      "pl": "Projekt aplikacji do archiwizowania kontaktów i zadań biznesowych.",
+      "eng": "A Fullstack project for managing contacts."
+    },
+    "date_start": 2025,
+    "date_end": null,
+    "tech": [
+      "laravel",
+      "php",
+      "mysql",
+      "react",
+      "tailwind",
+      "javascript",
+      "html"
+    ],
+    "code_link": "https://github.com/karol-jedrzejak/company-contacts-app",
+    "demo_link": null
+  },
+  {
+    "id": 10,
+    "name": {
       "pl": "Platforma do zarządzania V2",
       "eng": "Management Platform V2"
     },
