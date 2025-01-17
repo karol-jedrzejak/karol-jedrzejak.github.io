@@ -32,9 +32,9 @@ const App = () => {
   let languages = [null, "pl", "eng"];
   let types = [null, "programmer", "robotics", "manager", "panasonic"];
 
-  let apptype = 1;
-  let language = languages[1];
-  let type = types[1];
+  let apptype = 1; // 1-App 2-CV 3-MotivationLetter
+  let language = languages[1]; // 1-PL 2-ENG
+  let type = types[1]; // 1-programmer 2-robotics 3-manager 4-panasonic
 
   return (
     <div>
