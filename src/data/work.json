@@ -139,7 +139,7 @@
         "pl": "Prowadzenie szkoleń z programowania robotów offline / online,",
         "eng": "Conducting robot online / offline programming training,",
         "website": true,
-        "programmer": true,
+        "programmer": false,
         "manager": true,
         "robotics": true
       },
@@ -155,7 +155,7 @@
         "pl": "Przygotowywanie materiałów promocyjnych (prezentacje, filmy, katalogi),",
         "eng": "Preparation of promotional materials (presentations, films, catalogues),",
         "website": true,
-        "programmer": true,
+        "programmer": false,
         "manager": true,
         "robotics": true
       }
@@ -197,6 +197,26 @@
       }
     ],
     "date_start": 2022,
+    "date_end": null
+  },
+  {
+    "id": 5,
+    "company": "Fundacja Kompetencji Cyfrowych",
+    "position": {
+      "pl": "Programista Full-stack",
+      "eng": "Full-stack Web Developer"
+    },
+    "duties": [
+      {
+        "pl": "Implementacja stron internetowych z wykorzystaniem Wordpressa,",
+        "eng": "Implementation of websites with Wordpress,",
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": true
+      }
+    ],
+    "date_start": 2024,
     "date_end": null
   }
 ]

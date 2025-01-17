@@ -101,10 +101,12 @@ const GenerateMotivationLetter = (props) => {
                     and PHP and MYSQL and the front-end using Bootstrap and
                     JavaScript. I also added integration with the Leaflet Open
                     Street Maps api and the NBP api. The application also
-                    includes preparation of price offer files in PDF. Outside of
-                    work, I try to expand my knowledge of programming by
-                    participating in courses and learning at home (Symfony,
-                    React){" "}
+                    includes preparation of price offer files in PDF. Since
+                    2024, I have also been working as a volunteer at the
+                    "Fundacji Kompetencji cyfrowych" creating websites in
+                    Wordpress. Outside of work, I try to expand my knowledge of
+                    programming by participating in courses and learning at home
+                    (Symfony, React){" "}
                   </div>
                   <div className="indent-8 text-justify">
                     I am interested in working both full-time and part-time
@@ -155,9 +157,11 @@ const GenerateMotivationLetter = (props) => {
                     Bootstrapa i JavaScript. Do tego dołożyłem integrację z api
                     Leaflet Open Street Maps i api NBP. Aplikacja obejmuje
                     również przygotowanie przygotowaniem plików wyceny ofert w
-                    PDF. Poza czasem pracy staram się poszerzyć swoją wiedzę z
-                    zakresu programowania przez uczestnictwo w kursach i naukę w
-                    domu (min, Symfony, React).
+                    PDF. Od 2024 roku pracuję również jako wolantariusz w
+                    "Fundacji Kompetencji cyfrowych" tworząć strony w
+                    Wordpressie. Poza czasem pracy staram się poszerzyć swoją
+                    wiedzę z zakresu programowania przez uczestnictwo w kursach
+                    i naukę w domu (min, Symfony, React).
                   </div>
                   <div className="indent-8 text-justify">
                     Interesuje mnie praca zarówno w pełnym wymiarze godzin jak i

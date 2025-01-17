@@ -174,7 +174,7 @@ const GenerateCV = (props) => {
                 </div>
 
                 <div>
-                  <ul className="list-outside list-disc ml-4 mt-2 marker:text-cyan-800">
+                  <ul className="list-outside list-disc ml-4 mt-1 marker:text-cyan-800">
                     {item.duties.map((data, index) => {
                       if (data[type]) {
                         return (
@@ -189,7 +189,7 @@ const GenerateCV = (props) => {
               </div>
             );
           })}
-          <div className="font-extrabold text-cyan-800 mt-2">
+          <div className="font-extrabold text-cyan-800 mt-1">
             {language == "eng" ? "EDUCATION" : "EDUKACJA"}
           </div>
           <hr className="border-t-slate-800 border-t-1" />
@@ -207,7 +207,7 @@ const GenerateCV = (props) => {
               </div>
             );
           })}
-          <div className="font-extrabold text-cyan-800 mt-2">
+          <div className="font-extrabold text-cyan-800 mt-1">
             {language == "eng" ? "COURSES" : "KURSY"}
           </div>
           <hr className="border-t-slate-800 border-t-1" />

@@ -18,13 +18,13 @@ const Qualification = () => {
             <div className="my-8 text-4xl font-extrabold text-cyan-800 text-center">
               {state.language == "eng" ? "EDUCATION" : "EDUKACJA"}
             </div>
-            {education_data.map((item) => {
+            {[...education_data].reverse().map((item) => {
               return (
                 <div key={item.id} className="my-1 flex items-center">
                   <div className="text-center p-2 text-slate-500 font-bold">
-                    {item.date_start}
-                    <br />|<br />
                     {item.date_end}
+                    <br />|<br />
+                    {item.date_start}
                   </div>
                   <div className="ml-4 p-2">
                     <span className="font-bold">
@@ -42,7 +42,7 @@ const Qualification = () => {
             <div className="my-8 text-4xl font-extrabold text-cyan-800 text-center">
               {state.language == "eng" ? <div>WORK</div> : <div>PRACA</div>}
             </div>
-            {work_data.map((item) => {
+            {[...work_data].reverse().map((item) => {
               let end = item.date_end;
               if (!item.date_end) {
                 if (state.language == "eng") {
@@ -54,9 +54,9 @@ const Qualification = () => {
               return (
                 <div key={item.id} className="flex items-center py-2">
                   <div className="text-center p-2 text-slate-500 font-bold">
-                    {item.date_start}
-                    <br />|<br />
                     {end}
+                    <br />|<br />
+                    {item.date_start}
                   </div>
                   <div className="ml-8 p-2">
                     <div className="text-slate-800 font-bold text-md">
@@ -79,7 +79,7 @@ const Qualification = () => {
             <div className="my-8 text-4xl font-extrabold text-cyan-800 text-center">
               {state.language == "eng" ? "COURSES" : "KURSY:"}
             </div>
-            {courses_data.map((item) => {
+            {[...courses_data].reverse().map((item) => {
               return (
                 <div key={item.id} className="my-1 flex items-center">
                   <div className="text-center p-2 text-slate-500 font-bold">

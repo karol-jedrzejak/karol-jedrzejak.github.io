@@ -119,6 +119,15 @@
       },
       {
         "id": 3,
+        "name": { "pl": "Wordpress", "eng": "Wordpress" },
+        "scale_10": 4,
+        "website": true,
+        "programmer": true,
+        "manager": true,
+        "robotics": false
+      },
+      {
+        "id": 4,
         "name": { "pl": "Ai Prompts", "eng": "Ai Prompts" },
         "scale_10": 3,
         "website": true,
@@ -127,7 +136,7 @@
         "robotics": true
       },
       {
-        "id": 4,
+        "id": 5,
         "name": { "pl": "MS Office", "eng": "MS Office" },
         "scale_10": 9,
         "website": true,
@@ -213,6 +222,18 @@
         "programmer": false,
         "manager": true,
         "robotics": true
+      },
+      {
+        "id": 4,
+        "name": {
+          "pl": "Wordpress",
+          "eng": "Wordpress"
+        },
+        "scale_10": 4,
+        "website": false,
+        "programmer": false,
+        "manager": true,
+        "robotics": true
       }
     ]
   },
@@ -235,7 +256,7 @@
         "name": { "pl": "Movie Studio", "eng": "Movie Studio" },
         "scale_10": 8,
         "website": true,
-        "programmer": true,
+        "programmer": false,
         "manager": false,
         "robotics": false
       },
