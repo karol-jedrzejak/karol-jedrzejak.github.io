@@ -146,30 +146,12 @@ const GenerateCV = (props) => {
         </header>
         <main>
           <div className="font-extrabold text-cyan-800">
-            {language == "eng" ? "EDUCATION" : "EDUKACJA"}
-          </div>
-          <hr className="border-t-slate-800 border-t-1" />
-          {education_data.map((item) => {
-            return (
-              <div key={item.id} className="flex items-center py-1">
-                <div className="text-center text-slate-500 font">
-                  {item.date_start} - {item.date_end}
-                </div>
-                <div className="ml-3">
-                  <span className="font-bold">{item.name[language]}</span>
-                  <br />
-                  {item.title[language]}
-                </div>
-              </div>
-            );
-          })}
-          <div className="font-extrabold text-cyan-800 mt-2">
             {language == "eng"
               ? "EMPLOYMENT EXPERIENCE"
               : "DOŚWIADCZENIE ZAWODOWE"}
           </div>
           <hr className="border-t-slate-800 border-t-1" />
-          {work_data.map((item) => {
+          {[...work_data].reverse().map((item) => {
             let end = item.date_end;
             if (!item.date_end) {
               if (language == "eng") {
@@ -208,10 +190,28 @@ const GenerateCV = (props) => {
             );
           })}
           <div className="font-extrabold text-cyan-800 mt-2">
+            {language == "eng" ? "EDUCATION" : "EDUKACJA"}
+          </div>
+          <hr className="border-t-slate-800 border-t-1" />
+          {[...education_data].reverse().map((item) => {
+            return (
+              <div key={item.id} className="flex items-center py-1">
+                <div className="text-center text-slate-500 font">
+                  {item.date_start} - {item.date_end}
+                </div>
+                <div className="ml-3">
+                  <span className="font-bold">{item.name[language]}</span>
+                  <br />
+                  {item.title[language]}
+                </div>
+              </div>
+            );
+          })}
+          <div className="font-extrabold text-cyan-800 mt-2">
             {language == "eng" ? "COURSES" : "KURSY"}
           </div>
           <hr className="border-t-slate-800 border-t-1" />
-          {courses_data.map((item) => {
+          {[...courses_data].reverse().map((item) => {
             return (
               <div key={item.id} className="flex items-center">
                 <div className="text-center text-slate-500 font">
