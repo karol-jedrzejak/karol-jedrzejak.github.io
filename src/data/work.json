@@ -208,12 +208,20 @@
     },
     "duties": [
       {
-        "pl": "Implementacja stron internetowych z wykorzystaniem Wordpressa,",
-        "eng": "Implementation of websites with Wordpress,",
+        "pl": "Implementacja stron internetowych na podstawie projektów w Figmy. Stack technologiczny - Wordpress, MYSQL, Tailwind i javascript.",
+        "eng": "Implementation of websites based on figma projects. Software stack - Wordpress, MYSQL, Tailwind and javascript.",
         "website": true,
         "programmer": true,
-        "manager": true,
-        "robotics": true
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Współpraca z innymi programistami w zespołach 2-3 osobowych.",
+        "eng": "Collaboration with other programmers in teams of 2-3 people.",
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
       }
     ],
     "date_start": 2024,
