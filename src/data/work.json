@@ -131,7 +131,7 @@
         "pl": "Tworzenie wizualizacji 3D nowych systemów zrobotyzowanych, ich wycena oraz kontakt z klientem,",
         "eng": "Creating the concept of robotic systems (with 3Dmodeling) and their valuation, contact with the client,",
         "website": true,
-        "programmer": true,
+        "programmer": false,
         "manager": false,
         "robotics": false
       },
