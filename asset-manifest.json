@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.8ba2e33b.css",
-    "main.js": "/static/js/main.d9a952a0.js",
+    "main.js": "/static/js/main.a73dd375.js",
     "static/js/453.5e314e22.chunk.js": "/static/js/453.5e314e22.chunk.js",
     "static/media/bacground_ai_mobile.png": "/static/media/bacground_ai_mobile.c8344fb9eceb1ccf8c5e.png",
     "static/media/bacground_ai.png": "/static/media/bacground_ai.41d402da3ba43cd01b28.png",
     "static/media/about_1.jpg": "/static/media/about_1.8d2b0afbe9d32e915d11.jpg",
     "static/media/11.jpg": "/static/media/11.23a44ece6976118628dc.jpg",
-    "static/media/Karol Jędrzejak - CV - PL - WD.pdf": "/static/media/Karol Jędrzejak - CV - PL - WD.ae53b699b9b321fbbc6c.pdf",
-    "static/media/Karol Jędrzejak - CV - ENG - WD.pdf": "/static/media/Karol Jędrzejak - CV - ENG - WD.3022bb204087c1c12be0.pdf",
+    "static/media/Karol Jędrzejak - CV - PL - WD.pdf": "/static/media/Karol Jędrzejak - CV - PL - WD.739be1a3b2914677b913.pdf",
+    "static/media/Karol Jędrzejak - CV - ENG - WD.pdf": "/static/media/Karol Jędrzejak - CV - ENG - WD.be90867b0acdebaeadf3.pdf",
     "static/media/portret_1.png": "/static/media/portret_1.bfe0f2133e6fd8eaa994.png",
     "static/media/portret_mobile_1.jpg": "/static/media/portret_mobile_1.ff3e0a9ef1bd363dc688.jpg",
     "static/media/3.jpg": "/static/media/3.c8e7e9da730dbc7eefac.jpg",
@@ -23,11 +23,11 @@
     "static/media/8.jpg": "/static/media/8.47e919f455e2daa18ca3.jpg",
     "index.html": "/index.html",
     "main.8ba2e33b.css.map": "/static/css/main.8ba2e33b.css.map",
-    "main.d9a952a0.js.map": "/static/js/main.d9a952a0.js.map",
+    "main.a73dd375.js.map": "/static/js/main.a73dd375.js.map",
     "453.5e314e22.chunk.js.map": "/static/js/453.5e314e22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ba2e33b.css",
-    "static/js/main.d9a952a0.js"
+    "static/js/main.a73dd375.js"
   ]
 }
