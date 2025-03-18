@@ -75,9 +75,8 @@ const GenerateMotivationLetter = (props) => {
                   <div className="indent-8 text-justify">
                     Dear Sirs. I am interested in your job offer. I am a
                     graduate of the Poznań University of Technology in
-                    Automation and Robotics and currently i work as a
-                    "programmer and robotics specialist" at Technika
-                    Spawalnicza.
+                    Automation and Robotics and currently i work as a "Head of
+                    Programming Department" at Technika Spawalnicza.
                   </div>
                   <div className="indent-8 text-justify">
                     My adventure with programming began in high school, where I
@@ -130,8 +129,8 @@ const GenerateMotivationLetter = (props) => {
                     Szanowni Państwo. Jestem zainteresowany Państwa ofertą
                     pracy. Jestem absolwentem Politechniki Poznańskiej na
                     kierunku Automatyka i Robotyka i aktualnie pracuje na
-                    stanowisku „programisty i specjalisty do spraw robotyzacji”
-                    w firmie Technika Spawalnicza.
+                    stanowisku „Kierownik Działu Programowania” w firmie
+                    Technika Spawalnicza.
                   </div>
                   <div className="indent-8 text-justify">
                     Moja przygoda z programowaniem rozpoczęła się w Liceum
@@ -191,8 +190,8 @@ const GenerateMotivationLetter = (props) => {
                   <div className="indent-8 text-justify">
                     Dear Sirs. I am interested in your job offer. I am a
                     graduate of the Poznań University of Technology in
-                    Automation and Robotics and currently work as a "programmer
-                    and robotics specialist" at Technika Spawalnicza.
+                    Automation and Robotics and currently work as "Head of
+                    Programming Department" at Technika Spawalnicza.
                   </div>
                   <div className="indent-8 text-justify">
                     My adventure with programming and robotics began in High
@@ -238,8 +237,8 @@ const GenerateMotivationLetter = (props) => {
                     Szanowni Państwo. Jestem zainteresowany Państwa ofertą
                     pracy. Jestem absolwentem Politechniki Poznańskiej na
                     kierunku Automatyka i Robotyka i aktualnie pracuje na
-                    stanowisku „programisty i specjalisty do spraw robotyzacji”
-                    w firmie Technika Spawalnicza.
+                    stanowisku „Kierownik Działu Programowania” w firmie
+                    Technika Spawalnicza.
                   </div>
                   <div className="indent-8 text-justify">
                     Moja przygoda z programowaniem i robotyką rozpoczęła się w
@@ -291,9 +290,8 @@ const GenerateMotivationLetter = (props) => {
                   <div className="indent-8 text-justify">
                     Dear Sirs. I am interested in your job offer. I am a
                     graduate of the Poznań University of Technology in
-                    Automation and Robotics and currently i work as a
-                    "programmer and senior robotics specialist" at Technika
-                    Spawalnicza.
+                    Automation and Robotics and currently i work as "Head of
+                    Programming Department" at Technika Spawalnicza.
                   </div>
                   <div className="indent-8 text-justify">
                     My adventure with programming & robotics began in High
@@ -344,8 +342,8 @@ const GenerateMotivationLetter = (props) => {
                     Szanowni Państwo. Jestem zainteresowany Państwa ofertą
                     pracy. Jestem absolwentem Politechniki Poznańskiej na
                     kierunku Automatyka i Robotyka i aktualnie pracuje na
-                    stanowisku „programisty i starszego specjalisty do spraw
-                    robotyzacji” w firmie Technika Spawalnicza.
+                    stanowisku „Kierownik Działu Programowania” w firmie
+                    Technika Spawalnicza.
                   </div>
                   <div className="indent-8 text-justify">
                     Moja przygoda z programowaniem i robotyką rozpoczęła się w
@@ -400,7 +398,7 @@ const GenerateMotivationLetter = (props) => {
               {language == "eng" ? (
                 <div className="py-8 px-6 text-sm"></div>
               ) : (
-                /* ROBOTYK PL */
+                /* ROBOTYK PANASONIC PL */
                 <div className="py-4 px-6 text-sm">
                   <div className="indent-8 text-justify">
                     Szanowni Państwo. Moja przygoda z programowaniem i robotyką

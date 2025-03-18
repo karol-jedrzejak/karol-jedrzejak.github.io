@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "company": "Mały Inżynier",
+    "position": {
+      "pl": "Instruktor zajęć robotyki",
+      "eng": "Robotics instructor"
+    },
+    "duties": [
+      {
+        "pl": "Prowadzenie zajęć z robotyki i automatyki dla dzieci w wieku 8-16 lat,",
+        "eng": "Conducting classes in Automation and Robotics for children aged 8-16 years,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Prowadzenie zajęć z programowania 'LEGO Mindstorms' dla dzieci w wieku 8-16 lat,",
+        "eng": "Conducting classes about Programming 'LEGO Mindstorms' for children aged 8-16 years,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Prowadzenie warsztatów i pokazów z zakresu automatyki i robotyki,",
+        "eng": "Conducting workshops and demonstrations in Automation and Robotics,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "pl": "Przygotowywanie i projektowanie pokazów technicznych z zakresu Automatyki i Robotyki,",
+        "eng": "Preparation of technical demonstrations about Automation and Robotics,",
+        "website": true,
+        "programmer": false,
+        "manager": false,
+        "robotics": false
+      }
+    ],
+    "date_start": 2011,
+    "date_end": 2012
+  }
+]
