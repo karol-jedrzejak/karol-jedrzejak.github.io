@@ -164,6 +164,29 @@
   {
     "id": 11,
     "name": {
+      "pl": "Strona fundacji 'Marsz Dla Nauki'",
+      "eng": "'Marsz Dla Nauki' Fundation Website"
+    },
+    "description": {
+      "pl": "Strona internetowa fundacji 'Marsz Dla Nauki'",
+      "eng": "'Marsz Dla Nauki' Fundation Website"
+    },
+    "date_start": 2025,
+    "date_end": 2025,
+    "tech": [
+      "wordpress",
+      "php",
+      "mysql",
+      "tailwind",
+      "javascript",
+      "html"
+    ],
+    "code_link": null,
+    "demo_link": "https://marszdlanauki.pl/"
+  },
+  {
+    "id": 12,
+    "name": {
       "pl": "Platforma do zarządzania V2",
       "eng": "Management Platform V2"
     },
