@@ -129,7 +129,7 @@
       {
         "id": 4,
         "name": { "pl": "Ai Prompts", "eng": "Ai Prompts" },
-        "scale_10": 3,
+        "scale_10": 6,
         "website": true,
         "programmer": true,
         "manager": true,

@@ -79,5 +79,14 @@
     },
     "date_start": 2024,
     "date_end": 2024
+  },
+  {
+    "id": 10,
+    "name": {
+      "pl": "Umiejętności Jutra AI (Google)",
+      "eng": "Tomorrow's AI Skills (Google)"
+    },
+    "date_start": 2025,
+    "date_end": 2025
   }
 ]

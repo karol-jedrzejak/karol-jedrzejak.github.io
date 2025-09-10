@@ -156,7 +156,7 @@
     },
     "duties": [
       {
-        "pl": "Implementacja stron internetowych na podstawie projektów w Figmy. Stack technologiczny - Wordpress, MYSQL, Tailwind i javascript.",
+        "pl": "Implementacja stron internetowych na podstawie projektów z Figmy. Stack technologiczny - Wordpress, MYSQL, Tailwind i javascript.",
         "eng": "Implementation of websites based on figma projects. Software stack - Wordpress, MYSQL, Tailwind and javascript.",
         "website": true,
         "programmer": true,
@@ -184,7 +184,7 @@
     },
     "duties": [
       {
-        "pl": "Praca przy rozbudowie i wdrażaniu systemu CRM. Wykorzystane technologie: PHP, Laravel, MYSQL, Bootstrap, JavaScript, HTML, CSSS,",
+        "pl": "Rozwój i wdrożenie systemu CRM przy użyciu technologii: PHP, Laravel, MySQL, Bootstrap, JavaScript, HTML, CSS,",
         "eng": "Work on the development and implementation of the CRM system. Used techologies: PHP, Laravel, MYSQL, Bootstrap, JavaScript, HTML, CSSS,",
         "website": true,
         "programmer": true,
@@ -192,8 +192,8 @@
         "robotics": true
       },
       {
-        "pl": "Wsparcie zespołu w codziennych zadaniach (starszy programista robotów),",
-        "eng": "Supporting the team in everyday tasks (senior robot programmer),",
+        "pl": "Mentoring i wsparcie zespołu programistów w bieżących zadaniach,",
+        "eng": "Mentoring and supporting the development team in their current tasks,",
         "website": true,
         "programmer": true,
         "manager": true,
@@ -244,7 +244,7 @@
         "pl": "Sprawowanie nadzoru nad jakością i terminowością realizowanych projektów,",
         "eng": "Supervision over the quality and timeliness of implemented projects,",
         "website": true,
-        "programmer": false,
+        "programmer": true,
         "manager": true,
         "robotics": true
       },
@@ -252,7 +252,7 @@
         "pl": "Koordynacja i organizacja pracy programistów,",
         "eng": "Coordination and organization of programmers' work,",
         "website": true,
-        "programmer": true,
+        "programmer": false,
         "manager": true,
         "robotics": true
       },
