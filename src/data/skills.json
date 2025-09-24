@@ -16,7 +16,7 @@
       {
         "id": 2,
         "name": { "pl": "Laravel", "eng": "Laravel" },
-        "scale_10": 5,
+        "scale_10": 6,
         "website": true,
         "programmer": true,
         "manager": false,
@@ -25,7 +25,7 @@
       {
         "id": 3,
         "name": { "pl": "Symfony", "eng": "Symfony" },
-        "scale_10": 4,
+        "scale_10": 3,
         "website": true,
         "programmer": true,
         "manager": false,
@@ -33,6 +33,15 @@
       },
       {
         "id": 4,
+        "name": { "pl": "Python", "eng": "Python" },
+        "scale_10": 3,
+        "website": true,
+        "programmer": true,
+        "manager": false,
+        "robotics": false
+      },
+      {
+        "id": 5,
         "name": { "pl": "MYSQL", "eng": "MYSQL" },
         "scale_10": 6,
         "website": true,
@@ -59,7 +68,7 @@
       {
         "id": 2,
         "name": { "pl": "JavaScript", "eng": "JavaScript" },
-        "scale_10": 6,
+        "scale_10": 7,
         "website": true,
         "programmer": true,
         "manager": false,
@@ -76,8 +85,8 @@
       },
       {
         "id": 4,
-        "name": { "pl": "Bootstrap", "eng": "Bootstrap" },
-        "scale_10": 8,
+        "name": { "pl": "Vue", "eng": "Vue" },
+        "scale_10": 4,
         "website": true,
         "programmer": true,
         "manager": false,
@@ -85,8 +94,8 @@
       },
       {
         "id": 5,
-        "name": { "pl": "Tailwind", "eng": "Tailwind" },
-        "scale_10": 5,
+        "name": { "pl": "Bootstrap/Tailwind", "eng": "Bootstrap/Tailwind" },
+        "scale_10": 8,
         "website": true,
         "programmer": true,
         "manager": false,
@@ -120,7 +129,7 @@
       {
         "id": 3,
         "name": { "pl": "Wordpress", "eng": "Wordpress" },
-        "scale_10": 4,
+        "scale_10": 5,
         "website": true,
         "programmer": true,
         "manager": true,
@@ -265,7 +274,7 @@
         "name": { "pl": "DaVinci Resolve", "eng": "DaVinci Resolve" },
         "scale_10": 5,
         "website": true,
-        "programmer": true,
+        "programmer": false,
         "manager": false,
         "robotics": false
       }

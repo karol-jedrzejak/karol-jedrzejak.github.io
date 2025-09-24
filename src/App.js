@@ -32,9 +32,24 @@ const App = () => {
   let languages = [null, "pl", "eng"];
   let types = [null, "programmer", "robotics", "manager", "panasonic"];
 
-  let apptype = 1; // 1-App 2-CV 3-MotivationLetter
-  let language = languages[1]; // 1-PL 2-ENG
+  let apptype = 2; // 1-App 2-CV 3-MotivationLetter
+  let language = languages[2]; // 1-PL 2-ENG
   let type = types[1]; // 1-programmer 2-robotics 3-manager 4-panasonic
+  
+/*
+1. Poczytaj o wzorcach projektowych PHP, SOLID, OOP
+2. Poczytaj o protokołach http/https oraz o OWASP, CSRF, XSS,
+3. Nauka Ptyhon + Djagno +  PostgreSQL
+4A. Projekt Laravel + Vue + PostgreSQL + copilot
+4B. Projekt Symfony + React + PostgreSQL + copilot
+5. RabbitMQ, Redis
+6. Testy jednostkowe (np.. PHP Unit
+7. docker, Kubernates
+8. AWS, Azure, Google Cloud
+9. CI/CD Pipeline
+10. GraphQL, FastApi
+11. Inne np. MongoDB
+*/
 
   return (
     <div>

@@ -6,7 +6,11 @@
       "eng": "Industrial Robot Programming (Panasonic)"
     },
     "date_start": 2013,
-    "date_end": 2013
+    "date_end": 2013,
+    "website": true,
+    "programmer": false,
+    "manager": false,
+    "robotics": true
   },
   {
     "id": 2,
@@ -15,7 +19,11 @@
       "eng": "Robot Sensor Programming (Panasonic)"
     },
     "date_start": 2015,
-    "date_end": 2015
+    "date_end": 2015,
+    "website": true,
+    "programmer": false,
+    "manager": false,
+    "robotics": true
   },
   {
     "id": 3,
@@ -24,7 +32,11 @@
       "eng": "Offline Robot Programming in DTPS (Panasonic)"
     },
     "date_start": 2016,
-    "date_end": 2016
+    "date_end": 2016,
+    "website": true,
+    "programmer": false,
+    "manager": false,
+    "robotics": true
   },
   {
     "id": 4,
@@ -33,7 +45,11 @@
       "eng": "Robotised Aluminium Welding (Panasonic)"
     },
     "date_start": 2016,
-    "date_end": 2016
+    "date_end": 2016,
+    "website": true,
+    "programmer": false,
+    "manager": false,
+    "robotics": true
   },
   {
     "id": 5,
@@ -42,7 +58,11 @@
       "eng": "Maraton CSS, HTML (Go IT)"
     },
     "date_start": 2022,
-    "date_end": 2022
+    "date_end": 2022,
+    "website": true,
+    "programmer": true,
+    "manager": false,
+    "robotics": false
   },
   {
     "id": 6,
@@ -51,7 +71,11 @@
       "eng": "Programming in PHP from scratch (Udemy)"
     },
     "date_start": 2022,
-    "date_end": 2022
+    "date_end": 2022,
+    "website": true,
+    "programmer": true,
+    "manager": true,
+    "robotics": false
   },
   {
     "id": 7,
@@ -60,16 +84,24 @@
       "eng": "Laravel Framework Course (Udemy)"
     },
     "date_start": 2022,
-    "date_end": 2022
+    "date_end": 2022,
+    "website": true,
+    "programmer": true,
+    "manager": true,
+    "robotics": false
   },
   {
     "id": 8,
     "name": {
-      "pl": "Kurs Front-end Developer – JS + React (CodeMe)",
-      "eng": "Front-end Developer Course – JS + React (CodeMe)"
+      "pl": "Bootcamp Front-end Developer – JS + React (CodeMe)",
+      "eng": "Front-end Developer Bootcamp – JS + React (CodeMe)"
     },
     "date_start": 2023,
-    "date_end": 2023
+    "date_end": 2023,
+    "website": true,
+    "programmer": true,
+    "manager": true,
+    "robotics": false
   },
   {
     "id": 9,
@@ -78,7 +110,11 @@
       "eng": "Symfony Framework (Udemy)"
     },
     "date_start": 2024,
-    "date_end": 2024
+    "date_end": 2024,
+    "website": true,
+    "programmer": true,
+    "manager": true,
+    "robotics": false
   },
   {
     "id": 10,
@@ -87,6 +123,23 @@
       "eng": "Tomorrow's AI Skills (Google)"
     },
     "date_start": 2025,
-    "date_end": 2025
+    "date_end": 2025,
+    "website": true,
+    "programmer": true,
+    "manager": true,
+    "robotics": false
+  },
+  {
+    "id": 10,
+    "name": {
+      "pl": "Programowanie w języku Python (Udemy)",
+      "eng": "Python Programming (Udemy)"
+    },
+    "date_start": 2025,
+    "date_end": 2025,
+    "website": true,
+    "programmer": true,
+    "manager": true,
+    "robotics": false
   }
 ]

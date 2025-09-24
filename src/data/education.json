@@ -6,7 +6,7 @@
       "eng": "'T. Kościuszki' middle school in Jarocin"
     },
     "subname": {
-      "pl": "Profil: Informatyka",
+      "pl": "Profil: Informatyka:",
       "eng": "Profile: Information technology"
     },
     "title": {
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "name": {
-      "pl": "Politechnika Poznańska",
+      "pl": "Politechnika Poznańska: Wydział Informatyki",
       "eng": "Poznań University of Technology"
     },
     "subname": {

@@ -144,7 +144,7 @@ const GenerateCV = (props) => {
         <header>
           <h1 className="text-3xl">KAROL JĘDRZEJAK</h1>
         </header>
-        <main>
+        <main className="relative h-[271mm]">
           <div className="font-extrabold text-cyan-800">
             {language == "eng"
               ? "EMPLOYMENT EXPERIENCE"
@@ -210,11 +210,13 @@ const GenerateCV = (props) => {
           <div className="font-extrabold text-cyan-800 mt-1">
             {language == "eng" ? "COURSES" : "KURSY"}
           </div>
-          <hr className="border-t-slate-800 border-t-1" />
+          <hr className="border-t-slate-800 border-t-1 mb-2" />
           {[...courses_data].reverse().map((item) => {
-            return (
+            if(item[type])
+            {
+                          return (
               <div key={item.id} className="flex items-center">
-                <div className="text-center text-slate-500 font">
+                <div className="text-center text-slate-500 font text-sm">
                   {item.date_end}
                 </div>
                 <div className="ml-2 text-sm">
@@ -222,7 +224,15 @@ const GenerateCV = (props) => {
                 </div>
               </div>
             );
+            }
           })}
+          {language == "eng"
+              ? <div className="mt-2 text-xs absolute bottom-0 mr-5 mb-5 italic">
+            I consent to the processing of my personal data for the purposes necessary to carry out the recruitment process in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (RODO).
+            </div>
+              : <div className="mt-2 text-xs absolute bottom-0 mr-5 mb-5 italic">
+            Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+          </div>}
         </main>
       </div>
     </>

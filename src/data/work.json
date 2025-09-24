@@ -156,8 +156,8 @@
     },
     "duties": [
       {
-        "pl": "Implementacja stron internetowych na podstawie projektów z Figmy. Stack technologiczny - Wordpress, MYSQL, Tailwind i javascript.",
-        "eng": "Implementation of websites based on figma projects. Software stack - Wordpress, MYSQL, Tailwind and javascript.",
+        "pl": "Implementacja stron internetowych na podstawie projektów z Figmy. Stack technologiczny - Wordpress, MYSQL, Tailwind i JavaScript.",
+        "eng": "Implementation of websites based on figma projects. Software stack - Wordpress, MYSQL, Tailwind and JavaScript.",
         "website": true,
         "programmer": true,
         "manager": false,
@@ -184,8 +184,8 @@
     },
     "duties": [
       {
-        "pl": "Rozwój i wdrożenie systemu CRM przy użyciu technologii: PHP, Laravel, MySQL, Bootstrap, JavaScript, HTML, CSS,",
-        "eng": "Work on the development and implementation of the CRM system. Used techologies: PHP, Laravel, MYSQL, Bootstrap, JavaScript, HTML, CSSS,",
+        "pl": "Boduwa, rozwój i wdrożenie systemu CRM. Backend przygotowany w oparciu PHP, Laravel i bazę danych MySQL. Front-end przygotowanay z wykorzystaniem Bootstrap, JavaScript, HTML i  SCSS. Implementacja generacji ofert do plików PDF. Inegracja z REST API google i NBP,",
+        "eng": "Work on the development and implementation of the CRM system. Backend based on PHP, Laravel and MySQL databases. Front-end prepared using Bootstrap, JavaScript, HTML and SCSS. Implementation of offer generation into PDF files. Integration with Google and NBP REST API,",
         "website": true,
         "programmer": true,
         "manager": true,
@@ -227,7 +227,7 @@
         "pl": "Tworzenie wizualizacji 3D nowych systemów zrobotyzowanych, ich wycena oraz kontakt z klientem,",
         "eng": "Creating the concept of robotic systems (with 3Dmodeling) and their valuation, contact with the client,",
         "website": false,
-        "programmer": true,
+        "programmer": false,
         "manager": true,
         "robotics": true
       },
