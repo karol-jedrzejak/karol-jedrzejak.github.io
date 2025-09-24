@@ -156,8 +156,8 @@
     },
     "duties": [
       {
-        "pl": "Implementacja stron internetowych na podstawie projektów z Figmy. Stack technologiczny - Wordpress, MYSQL, Tailwind i JavaScript.",
-        "eng": "Implementation of websites based on figma projects. Software stack - Wordpress, MYSQL, Tailwind and JavaScript.",
+        "pl": "Implementacja stron internetowych z wykorzystaniem technologii Wordpress, MYSQL, Tailwind, JavaScript, na podstawie projektów z Figmy. Bieżąca współpraca i ustalanie wymagań przy użyciu platformy Slack,",
+        "eng": "Website implementation using Wordpress, MYSQL, Tailwind, and JavaScript technologies, based on Figma designs. Ongoing collaboration and requirements development using the Slack platform.",
         "website": true,
         "programmer": true,
         "manager": false,
