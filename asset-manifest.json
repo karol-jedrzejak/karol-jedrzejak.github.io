@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.87537f72.css",
-    "main.js": "/static/js/main.b6a40496.js",
+    "main.js": "/static/js/main.6450486c.js",
     "static/js/453.5e314e22.chunk.js": "/static/js/453.5e314e22.chunk.js",
     "static/media/bacground_ai_mobile.png": "/static/media/bacground_ai_mobile.c8344fb9eceb1ccf8c5e.png",
     "static/media/bacground_ai.png": "/static/media/bacground_ai.41d402da3ba43cd01b28.png",
@@ -11,8 +11,8 @@
     "static/media/portret_mobile_1.jpg": "/static/media/portret_mobile_1.ff3e0a9ef1bd363dc688.jpg",
     "static/media/3.jpg": "/static/media/3.c8e7e9da730dbc7eefac.jpg",
     "static/media/5.jpg": "/static/media/5.677b5da7938d8a15a64f.jpg",
-    "static/media/Karol Jędrzejak - CV - PL - WD.pdf": "/static/media/Karol Jędrzejak - CV - PL - WD.a75a8e39f9dc8a607461.pdf",
-    "static/media/Karol Jędrzejak - CV - ENG - WD.pdf": "/static/media/Karol Jędrzejak - CV - ENG - WD.8822a12da3eab85a9ddc.pdf",
+    "static/media/Karol Jędrzejak - CV - PL - WD.pdf": "/static/media/Karol Jędrzejak - CV - PL - WD.6b52a9a46e88f355d800.pdf",
+    "static/media/Karol Jędrzejak - CV - ENG - WD.pdf": "/static/media/Karol Jędrzejak - CV - ENG - WD.f70bf9e8fb28b72089de.pdf",
     "static/media/11.jpg": "/static/media/11.7dade8ec7b89e95d431d.jpg",
     "static/media/4.jpg": "/static/media/4.2bc8f2182d32d0eb2ede.jpg",
     "static/media/1.jpg": "/static/media/1.e8f76c42e2835aaa0666.jpg",
@@ -24,11 +24,11 @@
     "static/media/8.jpg": "/static/media/8.47e919f455e2daa18ca3.jpg",
     "index.html": "/index.html",
     "main.87537f72.css.map": "/static/css/main.87537f72.css.map",
-    "main.b6a40496.js.map": "/static/js/main.b6a40496.js.map",
+    "main.6450486c.js.map": "/static/js/main.6450486c.js.map",
     "453.5e314e22.chunk.js.map": "/static/js/453.5e314e22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87537f72.css",
-    "static/js/main.b6a40496.js"
+    "static/js/main.6450486c.js"
   ]
 }
