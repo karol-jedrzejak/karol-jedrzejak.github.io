@@ -184,7 +184,7 @@
     },
     "duties": [
       {
-        "pl": "Boduwa, rozwój i wdrożenie systemu CRM. Backend przygotowany w oparciu PHP, Laravel i bazę danych MySQL. Front-end przygotowanay z wykorzystaniem Bootstrap, JavaScript, HTML i  SCSS. Implementacja generacji ofert do plików PDF. Inegracja z REST API google i NBP,",
+        "pl": "Budowa, rozwój i wdrożenie systemu CRM. Backend przygotowany w oparciu PHP, Laravel i bazę danych MySQL. Front-end przygotowanay z wykorzystaniem Bootstrap, JavaScript, HTML i  SCSS. Implementacja generacji ofert do plików PDF. Inegracja z REST API google i NBP,",
         "eng": "Work on the development and implementation of the CRM system. Backend based on PHP, Laravel and MySQL databases. Front-end prepared using Bootstrap, JavaScript, HTML and SCSS. Implementation of offer generation into PDF files. Integration with Google and NBP REST API,",
         "website": true,
         "programmer": true,

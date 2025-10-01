@@ -53,7 +53,7 @@ const App = () => {
 
   return (
     <div>
-      {apptype == 1 ? (
+      {apptype === 1 ? (
         <div>
           <Navigation />
           <div className="bg-slate-100 mt-[64px] min-h-[calc(100vh-64px)] bg-cover bg-center bg-top bg-my-background-mobile lg:bg-my-background-browser">
@@ -62,7 +62,7 @@ const App = () => {
         </div>
       ) : (
         <div>
-          {apptype == 3 ? (
+          {apptype === 3 ? (
             <div>
               <GenerateMotivationLetter language={language} type={type} />
             </div>
